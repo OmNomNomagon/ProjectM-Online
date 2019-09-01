@@ -1,0 +1,7 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/OmNomNomagon/OmNomNomagon.github.io.git
+	branch = master
+[submodule "themes/meghna-markmod"]
+	path = themes/meghna-markmod
+	url = https://github.com/themefisher/meghna-hugo.git
