@@ -1,4 +1,50 @@
-baseURL = "http://example.org/"
+baseURL = "http:\\OmNomNomagon.github.io"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "meghna-markmod"
+title = "Marky's New Website. Hi Zowweeeee"
+theme = "meghna-hugo"
+
+# Menu
+[menu]
+
+    [[menu.nav]]
+    name = "Projects"
+    URL = "portfolio"
+    weight = 2
+
+    [[menu.nav]]
+    name = "About m2"
+    URL = "about"
+    weight = 4
+	
+    [[menu.nav]]
+    name = "Contact"
+    URL = "contact-me"
+    weight = 8
+	
+# Site params
+[params]
+home= "Home"
+logo = "images/logo.png"
+# Meta data
+description = "HTML5 Template"
+author = "PooCorp Industries"
+
+    # Banner Section
+    [params.banner]
+    enable = true
+    bgImage = "images/slider/hero-area.jpg"
+    icon = "tf-ion-play"
+    heading = "Code. Carve. Create"
+    content= "Mark Riganti's Project log site."
+    btn = true
+    btnText="Projects"
+    btnURL="#services"
+
+    # Projects Section
+    [params.portfolio]
+    enable = true
+
+    # footer
+    [params.footer]
+        copyright = "PooCorp Industries"
+        copyrightURL = "PooCorp.cf"

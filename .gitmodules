@@ -5,3 +5,6 @@
 [submodule "themes/meghna-markmod"]
 	path = themes/meghna-markmod
 	url = https://github.com/themefisher/meghna-hugo.git
+[submodule "themes/meghna-hugo"]
+	path = themes/meghna-hugo
+	url = https://github.com/themefisher/meghna-hugo.git
