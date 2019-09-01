@@ -1,7 +1,7 @@
-baseURL = "http:\\OmNomNomagon.github.io"
+#baseURL = "http:\\OmNomNomagon.github.io"
 languageCode = "en-us"
-title = "Marky's New Website. Hi Zowweeeee"
-theme = "meghna-hugo"
+title = "Mark Riganti's Project Website"
+theme = "meghna-markmod"
 
 # Menu
 [menu]
@@ -12,7 +12,7 @@ theme = "meghna-hugo"
     weight = 2
 
     [[menu.nav]]
-    name = "About m2"
+    name = "About me"
     URL = "about"
     weight = 4
 	
@@ -32,15 +32,15 @@ author = "PooCorp Industries"
     # Banner Section
     [params.banner]
     enable = true
-    bgImage = "images/slider/hero-area.jpg"
-    icon = "tf-ion-play"
-    heading = "Code. Carve. Create"
+    bgImage = "images/BG.jpg"
+    logo = "images/logo.png"
+    heading = "Code. Cad. Carve. Create."
     content= "Mark Riganti's Project log site."
     btn = true
     btnText="Projects"
-    btnURL="#services"
+    btnURL="#portfolio"
 
-    # Projects Section
+    #Projects Section
     [params.portfolio]
     enable = true
 
