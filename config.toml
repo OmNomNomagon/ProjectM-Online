@@ -6,6 +6,12 @@ theme = "meghna-markmod"
 # Menu
 [menu]
 
+
+    [[menu.nav]]
+    name = "Home"
+    URL = "home"
+    weight = 2
+
     [[menu.nav]]
     name = "Projects"
     URL = "portfolio"
@@ -23,7 +29,7 @@ theme = "meghna-markmod"
 	
 # Site params
 [params]
-home= "Home"
+home= "home"
 logo = "images/logo.png"
 # Meta data
 description = "HTML5 Template"
