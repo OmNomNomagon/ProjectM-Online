@@ -1,4 +1,4 @@
-#baseURL = "http:\\OmNomNomagon.github.io"
+#baseURL = "http:\\riganti.com.au"
 languageCode = "en-us"
 title = "Mark Riganti's Project Website"
 theme = "meghna-markmod"
@@ -32,7 +32,7 @@ author = "PooCorp Industries"
     # Banner Section
     [params.banner]
     enable = true
-    bgImage = "images/BG.jpg"
+    bgImage = "images/BG2.jpg"
     logo = "images/logo.png"
     heading = "Code. Cad. Carve. Create."
     content= "Mark Riganti's Project log site."
