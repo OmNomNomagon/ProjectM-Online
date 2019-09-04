@@ -1,0 +1,212 @@
+enable : true
+heading : My
+headingSpan : Projects
+filterList :
+  - filterType : wood
+    filterTitle : Woodworking
+    
+  - filterType : 3d
+    filterTitle : 3D Design
+    
+  - filterType : development
+    filterTitle : Development
+    
+  - filterType : audio
+    filterTitle : Audio
+
+  - filterType : tech
+    filterTitle : Technology
+
+  - filterType : cad
+    filterTitle : CAD Design
+    
+portfolioItem :
+  - types : 3d, cad
+    image : images/portfolio/mk3.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : ReDuplicator MK3x - wanhao i3 overhaul
+    description : 3D Printer complete redesign
+    
+  - types : wood
+    image : images/portfolio/entunit.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Reclaimed Redgum entertainment unit
+    description : Entertainment unit made of reclaimed australian redgum
+    
+  - types : 3d
+    image : images/portfolio/poly.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Low Poly Planter
+    description : A low polygon planter perfect for succulents
+  
+  - types : wood
+    image : images/portfolio/coffee.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Modern Coffee Table
+    description : Made from reclaimed australian red gum
+
+  - types : 3d, cad
+    image : images/portfolio/switch.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Switch Stand Game Holder
+    description : Stylishly hold up to seven games on your switch dock
+    
+  - types : wood
+    image : images/portfolio/diningt.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Dining Table
+    description : Red Ironbark and Merbau dining table
+
+  - types : wood
+    image : images/portfolio/desk.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Ironbark Desk
+    description : Long desk crafted from red ironbark and merbau decking
+    
+  - types : 3d
+    image : images/portfolio/enclosure.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Wanhao Lack Triple Stack 3d Enclosure 
+    description : Wanhao enclosure designed from three ikea lack tables.
+    
+  - types : 3d, audio, cad
+    image : images/portfolio/alpha.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Open Alpha Headphones
+    description : redesign of the mrspeaers open alpha headphones to allow for a 2.5mm connection
+    
+  - types : wood
+    image : images/portfolio/chairs.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Chairs
+    description : replace the flimsy acacia on ikea Tarno chairs.
+    
+  - types : 3d
+    image : images/portfolio/titan.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Titan Extuder upgrade for MK3x
+    description : Extruder upgrade for Reduplicator mk3x
+    
+  - types : 3d, audio
+    image : images/portfolio/alcostand.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Scotch Headphone Stand 
+    description : convert any alco bottle into a headphone stand.
+    
+  - types : 3d, cad
+    image : images/portfolio/apollo.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Lego Saturn V Stand
+    description : Additional stands for the lego Apollo.
+    
+  - types : wood
+    image : images/portfolio/sidet.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Ikea Malm custom top
+    description : Red iron bark Ikea upgrade
+ 
+  - types : 3d, cad
+    image : images/portfolio/cherry.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Cherry Popper
+    description : Cherry MX keyboard switch opening tool.
+    
+  - types : Audio
+    image : images/portfolio/cable.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Custom Braided Headphone Cables
+    description : Mogami and paaracord headphone cable
+
+  - types : Audio, wood
+    image : images/portfolio/speakerstd.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Red Gum Speaker Stands
+    description : Reclaimed red gum stands
+    
+  - types : tech, wood
+    image : images/portfolio/kb1.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Custom Corsair K65  
+    description : K65 customised with cherry mx brown 
+ 
+  - types : audio
+    image : images/portfolio/he500.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : He500 Mods
+    description : With He560 headband, fuzzor, and pads.
+  
+  - types : tech, wood
+    image : images/portfolio/kb2.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Custom Drevo Calibr 
+    description : Gateron brown modded  
+    
+  - types : Audio, cad
+    image : images/portfolio/es10mod.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Audio Technica over ear ES10 mod 
+    description : over ear pad mod for ATH ES series.
+    
+  - types : 3d, cad
+    image : images/portfolio/polyhook.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Low Poly Wall hook
+    description : stylish stealthy wall hook.
+     
+  - types : 3d
+    image : images/portfolio/moon.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Moon Lamp
+    description : with meranti stand and lunar lander
+ 
+  - types : 3d
+    image : images/portfolio/vacuum.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : ECC88 Quad Vacuum Tube holder
+    description : Fits ECC88 6DJ8 6922 6BZ7
+    
+  - types : tech
+    image : images/portfolio/controller.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Wanhao 24v Gen-l TMC2130 upgrade
+    description : Wahnao i3 controller upgrade 
+    
+  - types : 3d, cad
+    image : images/portfolio/wanhao.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Wanhao Straight Braces
+    description : For i3 rigidity
+ 
+  - types : 3d, cad
+    image : images/portfolio/pi3.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Raspberry Pi Wanhao mount
+    description : mount for the wanhao control box
+  
