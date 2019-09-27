@@ -8,9 +8,6 @@ filterList :
   - filterType : 3d
     filterTitle : 3D Design
     
-  - filterType : development
-    filterTitle : Development
-    
   - filterType : audio
     filterTitle : Audio
 
@@ -19,13 +16,16 @@ filterList :
 
   - filterType : cad
     filterTitle : CAD Design
+     
+  - filterType : development
+    filterTitle : Development
     
 portfolioItem :
   - types : 3d, cad
     image : images/portfolio/mk3-med.jpg
     icon : tf-ion-android-search
     URL : #
-    title : ReDuplicator MK3x - wanhao i3 overhaul
+    title : ReDuplicator MK3x - Wanhao i3 overhaul
     description : 3D Printer complete redesign
     
   - types : wood
@@ -33,63 +33,63 @@ portfolioItem :
     icon : tf-ion-android-search
     URL : #
     title : Reclaimed Redgum entertainment unit
-    description : Entertainment unit made of reclaimed australian redgum
+    description : unit made of reclaimed Redgum
     
   - types : 3d
     image : images/portfolio/poly-med.jpg
     icon : tf-ion-android-search
     URL : #
     title : Low Poly Planter
-    description : A low polygon planter perfect for succulents
+    description : A low polygon planter for succulents
   
   - types : wood
     image : images/portfolio/coffee-med.jpg
     icon : tf-ion-android-search
     URL : #
     title : Modern Coffee Table
-    description : Made from reclaimed australian red gum
+    description : Made from reclaimed Red gum
 
   - types : 3d, cad
     image : images/portfolio/switch-med.jpg
     icon : tf-ion-android-search
     URL : #
     title : Switch Stand Game Holder
-    description : Stylishly hold up to seven games on your switch dock
+    description : Store up to seven games on a switch dock
     
   - types : wood
     image : images/portfolio/diningt-med.jpg
     icon : tf-ion-android-search
     URL : #
     title : Dining Table
-    description : Red Ironbark and Merbau dining table
+    description : Red Ironbark dining table
 
   - types : wood
     image : images/portfolio/desk-med.jpg
     icon : tf-ion-android-search
     URL : #
-    title : Ironbark Desk
-    description : Long desk crafted from red ironbark and merbau decking
+    title : Modern Ironbark Desk
+    description : Crafted from red ironbark decking
     
   - types : 3d
     image : images/portfolio/enclosure-med.jpg
     icon : tf-ion-android-search
     URL : #
     title : Wanhao Lack Triple Stack 3d Enclosure 
-    description : Wanhao enclosure designed from three ikea lack tables.
+    description : Enlosure designed from three ikea lack tables.
     
   - types : 3d, audio, cad
     image : images/portfolio/alpha-med.jpg
     icon : tf-ion-android-search
     URL : #
-    title : Open Alpha Headphones
-    description : redesign of the mrspeaers open alpha headphones to allow for a 2.5mm connection
+    title : Open Alpha Headphones 2.5mm Redesign
+    description : MrSpeaers open alpha mod for 2.5mm connectors.
     
   - types : wood
     image : images/portfolio/chairs-med.jpg
     icon : tf-ion-android-search
     URL : #
-    title : Chairs
-    description : replace the flimsy acacia on ikea Tarno chairs.
+    title : Red Ironbark Chairs
+    description : Replaced the acacia on ikea Tarno chairs.
     
   - types : 3d
     image : images/portfolio/titan-med.jpg
@@ -116,24 +116,24 @@ portfolioItem :
     image : images/portfolio/sidet-med.jpg
     icon : tf-ion-android-search
     URL : #
-    title : Ikea Malm custom top
+    title : Ikea Malm custom side table top
     description : Red iron bark Ikea upgrade
  
   - types : 3d, cad
     image : images/portfolio/cherry-med.jpg
     icon : tf-ion-android-search
     URL : #
-    title : Cherry Popper
+    title : Cherry Popper Tool
     description : Cherry MX keyboard switch opening tool.
     
-  - types : Audio
+  - types : audio
     image : images/portfolio/cable-med.jpg
     icon : tf-ion-android-search
     URL : #
     title : Custom Braided Headphone Cables
     description : Mogami and paaracord headphone cable
 
-  - types : Audio, wood
+  - types : audio, wood
     image : images/portfolio/speakerstd-med.jpg
     icon : tf-ion-android-search
     URL : #
@@ -161,7 +161,7 @@ portfolioItem :
     title : Custom Drevo Calibr 
     description : Gateron brown modded  
     
-  - types : Audio, cad
+  - types : audio, cad
     image : images/portfolio/es10mod-med.jpg
     icon : tf-ion-android-search
     URL : #
@@ -179,8 +179,8 @@ portfolioItem :
     image : images/portfolio/moon-med.jpg
     icon : tf-ion-android-search
     URL : #
-    title : Moon Lamp
-    description : with meranti stand and lunar lander
+    title : 3D Moon Lamp
+    description : With meranti stand and lunar lander
  
   - types : 3d
     image : images/portfolio/vacuum-med.jpg
@@ -201,12 +201,12 @@ portfolioItem :
     icon : tf-ion-android-search
     URL : #
     title : Wanhao Straight Braces
-    description : For i3 rigidity
+    description : For Improved i3 rigidity
  
   - types : 3d, cad
     image : images/portfolio/pi3-med.jpg
     icon : tf-ion-android-search
     URL : #
     title : Raspberry Pi Wanhao mount
-    description : mount for the wanhao control box
+    description : Mount for the wanhao control box
   

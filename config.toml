@@ -1,16 +1,10 @@
-#baseURL = "http:\\riganti.com.au"
+#baseURL = "https:\\riganti.com.au"
 languageCode = "en-us"
 title = "Mark Riganti's Project Website"
-theme = "meghna-markmod"
+theme = "meghna-hugo"
 
 # Menu
 [menu]
-
-
-    [[menu.nav]]
-    name = "Home"
-    URL = "home"
-    weight = 2
 
     [[menu.nav]]
     name = "Projects"
@@ -29,7 +23,7 @@ theme = "meghna-markmod"
 	
 # Site params
 [params]
-home= "home"
+home= "Home"
 logo = "images/logo.png"
 # Meta data
 description = "HTML5 Template"
@@ -38,7 +32,7 @@ author = "PooCorp Industries"
     # Banner Section
     [params.banner]
     enable = true
-    bgImage = "images/BG2.jpg"
+    bgImage = "images/bgc.jpg"
     logo = "images/logo.png"
     heading = "Code. Cad. Carve. Create."
     content= "Mark Riganti's Project log site."
@@ -53,4 +47,12 @@ author = "PooCorp Industries"
     # footer
     [params.footer]
         copyright = "PooCorp Industries"
-        copyrightURL = "PooCorp.cf"
+        copyrightURL = "PooCorp.com"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-github"
+        url = "https://github.com/OmNomNomagon"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-github"
+        url = "https://www.thingiverse.com/OmNomNomagon/about"
