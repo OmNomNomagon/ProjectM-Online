@@ -6,12 +6,6 @@ theme = "meghna-markmod"
 # Menu
 [menu]
 
-
-    [[menu.nav]]
-    name = "Home"
-    URL = "home"
-    weight = 2
-
     [[menu.nav]]
     name = "Projects"
     URL = "portfolio"
@@ -29,7 +23,7 @@ theme = "meghna-markmod"
 	
 # Site params
 [params]
-home= "home"
+home= "Home"
 logo = "images/logo.png"
 # Meta data
 description = "HTML5 Template"
@@ -38,7 +32,7 @@ author = "PooCorp Industries"
     # Banner Section
     [params.banner]
     enable = true
-    bgImage = "images/BG2.jpg"
+    bgImage = "images/bgc.jpg"
     logo = "images/logo.png"
     heading = "Code. Cad. Carve. Create."
     content= "Mark Riganti's Project log site."
@@ -54,3 +48,11 @@ author = "PooCorp Industries"
     [params.footer]
         copyright = "PooCorp Industries"
         copyrightURL = "PooCorp.cf"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-github"
+        url = "https://github.com/OmNomNomagon"
+
+        [[params.footer.socialIcon]]
+        logo = "images/icon/thingiverse.png"
+        url = "https://www.thingiverse.com/OmNomNomagon/about"

@@ -8,9 +8,6 @@ filterList :
   - filterType : 3d
     filterTitle : 3D Design
     
-  - filterType : development
-    filterTitle : Development
-    
   - filterType : audio
     filterTitle : Audio
 
@@ -19,6 +16,9 @@ filterList :
 
   - filterType : cad
     filterTitle : CAD Design
+     
+  - filterType : development
+    filterTitle : Development
     
 portfolioItem :
   - types : 3d, cad
@@ -126,14 +126,14 @@ portfolioItem :
     title : Cherry Popper
     description : Cherry MX keyboard switch opening tool.
     
-  - types : Audio
+  - types : audio
     image : images/portfolio/cable-med.jpg
     icon : tf-ion-android-search
     URL : #
     title : Custom Braided Headphone Cables
     description : Mogami and paaracord headphone cable
 
-  - types : Audio, wood
+  - types : audio, wood
     image : images/portfolio/speakerstd-med.jpg
     icon : tf-ion-android-search
     URL : #
@@ -161,7 +161,7 @@ portfolioItem :
     title : Custom Drevo Calibr 
     description : Gateron brown modded  
     
-  - types : Audio, cad
+  - types : audio, cad
     image : images/portfolio/es10mod-med.jpg
     icon : tf-ion-android-search
     URL : #
