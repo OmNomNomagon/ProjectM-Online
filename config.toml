@@ -1,7 +1,7 @@
 #baseURL = "https:\\riganti.com.au"
 languageCode = "en-us"
 title = "Mark Riganti's Project Website"
-theme = "meghna-hugo"
+theme = "meghna-markmod"
 
 # Menu
 [menu]
@@ -25,6 +25,7 @@ theme = "meghna-hugo"
 [params]
 home= "Home"
 logo = "images/logo.png"
+
 # Meta data
 description = "HTML5 Template"
 author = "PooCorp Industries"
@@ -40,7 +41,7 @@ author = "PooCorp Industries"
     btnText="Projects"
     btnURL="#portfolio"
 
-    #Projects Section
+    # Projects Section
     [params.portfolio]
     enable = true
 
