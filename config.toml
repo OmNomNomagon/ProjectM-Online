@@ -2,6 +2,7 @@
 languageCode = "en-us"
 title = "Mark Riganti's Project Website"
 theme = "meghna-markmod"
+summaryLength = 10
 
 # Menu
 [menu]
@@ -11,23 +12,14 @@ theme = "meghna-markmod"
     URL = "portfolio"
     weight = 2
 
-    [[menu.nav]]
-    name = "About me"
-    URL = "about"
-    weight = 4
-	
-    [[menu.nav]]
-    name = "Contact"
-    URL = "contact-me"
-    weight = 8
-	
 # Site params
 [params]
 home= "Home"
 logo = "images/logo.png"
+custom_css = ["css/custom.css"]
 
 # Meta data
-description = "HTML5 Template"
+description = "Mark Riganti's Project Website"
 author = "PooCorp Industries"
 
     # Banner Section
@@ -44,6 +36,7 @@ author = "PooCorp Industries"
     # Projects Section
     [params.portfolio]
     enable = true
+    bgImage = "images/bgc.jpg"
 
     # footer
     [params.footer]
