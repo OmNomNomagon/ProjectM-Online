@@ -64,11 +64,25 @@ portfolioItem :
     description : Red Ironbark dining table
 
   - types : wood
+    image : images/portfolio/chopping-med.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Ironbark Chopping board
+    description : laminated from red ironbark scraps
+
+  - types : wood
     image : images/portfolio/desk-med.jpg
     icon : tf-ion-android-search
     URL : #
     title : Modern Ironbark Desk
     description : Crafted from red ironbark decking
+
+  - types : wood
+    image : images/portfolio/spice-med.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Test Tube Spice Rack    
+    description : Tasmanian Oak Spice Rack
     
   - types : 3d
     image : images/portfolio/enclosure-med.jpg
@@ -90,6 +104,20 @@ portfolioItem :
     URL : #
     title : Red Ironbark Chairs
     description : Replaced the acacia on ikea Tarno chairs.
+    
+  - types : wood
+    image : images/portfolio/miniplanters-med.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Acacia Mini Herb Planters    
+    description : From Acacia Ikea Chair Scraps       
+    
+  - types : wood
+    image : images/portfolio/planters-med.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Self Watering Planter Boxes 
+    description : Meranti Self watering planter boxes      
     
   - types : 3d
     image : images/portfolio/titan-med.jpg
