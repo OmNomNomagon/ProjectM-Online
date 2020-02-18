@@ -24,7 +24,7 @@ portfolioItem :
   - types : 3d, cad
     image : images/portfolio/mk3-med.jpg
     icon : tf-ion-android-search
-    URL : #
+    URL : /posts/p1-mk3x/
     title : ReDuplicator MK3x - Wanhao i3 overhaul
     description : 3D Printer complete redesign
     
@@ -38,7 +38,7 @@ portfolioItem :
   - types : 3d
     image : images/portfolio/poly-med.jpg
     icon : tf-ion-android-search
-    URL : #
+    URL : /posts/p3-switch-dock
     title : Low Poly Planter
     description : A low polygon planter for succulents
   
@@ -49,6 +49,20 @@ portfolioItem :
     title : Modern Coffee Table
     description : Made from reclaimed Red gum
 
+  - types : 3d, wood
+    image : images/portfolio/floorlamp-med.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Convering LED lamp
+    description : Base and mounts for Ikea SPANST lamp
+
+  - types : 3d, cad
+    image : images/portfolio/mk52-med.jpg
+    icon : tf-ion-android-search
+    URL : /posts/p1-mk3x/
+    title : ReDuplicator MK3x - MK52 Heatbed Expansion
+    description : Expand Reduplicator to acomodate a prusa MK3s heatbed.
+    
   - types : 3d, cad
     image : images/portfolio/switch-med.jpg
     icon : tf-ion-android-search
@@ -62,7 +76,7 @@ portfolioItem :
     URL : #
     title : Dining Table
     description : Red Ironbark dining table
-
+    
   - types : wood
     image : images/portfolio/chopping-med.jpg
     icon : tf-ion-android-search

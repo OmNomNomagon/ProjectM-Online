@@ -20,7 +20,7 @@ custom_css = ["css/custom.css"]
 
 # Meta data
 description = "Mark Riganti's Project Website"
-author = "PooCorp Industries"
+author = "PooCorp Heavy Industries"
 
     # Banner Section
     [params.banner]
