@@ -11,7 +11,7 @@ interval = 10000
 
 # Slide height (optional).
 # E.g. `100px` for 500 pixels or `calc(100vh - 70px)` for full screen.
-height = "900px"
+height = "1000px"
 
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
@@ -24,7 +24,7 @@ height = "900px"
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
   overlay_color = "#666"  # An HTML color value.
   overlay_img = "slider/mustangB.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.3  # Darken the image. Value in range 0-1.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
   # Call to action button (optional).
   #   Activate the button by specifying a URL and button label below.
@@ -40,7 +40,7 @@ height = "900px"
 
   overlay_color = "#555"  # An HTML color value.
   overlay_img = "slider/blur-small.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.6  # Darken the image. Value in range 0-1.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
   cta_label = "Projects "
   cta_url = "http://localhost:1313/#projects"
@@ -52,7 +52,7 @@ height = "900px"
 
   overlay_color = "#333"  # An HTML color value.
   overlay_img = "slider/shuttle-small.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.3  # Darken the image. Value in range 0-1.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
   
   cta_label = "Projects "
   cta_url = "http://localhost:1313/#projects"
