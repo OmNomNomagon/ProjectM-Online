@@ -14,65 +14,73 @@ menu:
 weight: 8
 ---
 
+![](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/blob/master/Pics/9%20Titan/TitanMain.JPG?raw=true)
 
-The Hotend Carriage makes use of the stock Prusa MK2s rod spacing. If you decide to use a different carriage design make sure to use a Prusa compatible one. 
 
-Note: Some pictures on this page are the older V1 extruder carriage. The improved  new style MK3 carriage allows for the complete extruder assembly to be removed or installed from the X Axis rods without disassembling the Z-tower.
+This Titan Aero mount was designed to be compact as possible in the available space. This is done by keeping the hotend closer to the X axis rods than other mounts, minimizing the Z height and width profile while keeping it as strong and light as possible.
+
+It was designed for the ReDuplicator MK2sx which started life as a Wanhao Duplicator i3.
+This uses the same X carriage rear bearing plate as the original MK10 Re-Duplicator carriage. It can be found on the original project  [here.](https://www.thingiverse.com/thing:2686588/#files)
+
+The new shroud is based on the Prusa MK3 one. It results in much better overhang performance. 60 degree overhangs are flawless with some sagging [@70 degrees.](https://raw.githubusercontent.com/OmNomNomagon/ReDuplicator-MK2sx/master/Pics/9%20Titan/overhang.jpg) It is almost comparable to the [Dii Cooler via testing.](https://www.reddit.com/r/3Dprinting/comments/7kexdv/a_nearly_comprehensive_study_of_cooling_fans_and/)
+
+Make sure your Re-duplicator idler part is the new V2 design it includes additional mounting points for the X endstop. The X-axis endstop is mounted on the bottom of the X-axis idler part. The endstop will need to be relocated to the middle or furthest holes depending on the positioning of your heatbed. However if you've already printed the original idler V1, new holes can be drilled in at 5mm intervals with a 1.5mm drill bit. 
+
+The new MK3 Based **Titan Aero X Carriage Front Plate MK3 V2** and **X Carriage Rear Bearing Plate MK3 V2** have different spacing than the original parts. This new carriage can be installed and removed from the x-rods without having to disassemble the printer and are much easier to work with. it also uses a different belt securing method that is easier to tension.
 
 ![](https://raw.githubusercontent.com/OmNomNomagon/ReDuplicator-MK2sx/master/Pics/4%20Hotend/CarriageNew.jpg)
 
-Start with inserting the heat-Serts into your carriage parts.
+The new required printed parts are the:
+ - Titan Aero X Carriage Front Plate MK3 V2
+ - Titan Aero MK3 Part Cooling Fan Mount
+ - Titan Aero MK3 Part Cooling Fan Shroud
+ - X Carriage Rear Bearing Plate MK3 V2 (Same part as the MK10 extruder)
+ - BLTouch Mount (optional).
+
+Installation is very similar to the original MK10 hotend.
+Four Heatserts are placed into the front of the Rear Extruder plate. Two heat serts are inserted into the rear.
 
 ![](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/blob/master/Pics/4%20Hotend/Carriage1.jpg?raw=true)
 
-4 are inserted into the front of the **X Carriage Rear Bearing Plate MK3 V2** and 2 are inserted into the back. Slowly run a screw into and out of each of these threads to ensure they align with the rest of the screw holes. It is possible to substitute these heat-serts with M3 nylocks if you have trouble sourcing them.
+Two optional Heatserts are required on in the the prongs on the X Carriage Front Extruder Plate. If you are not using a BLTouch or similar levelling probe you can skip this.
 
-![](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/blob/master/Pics/4%20Hotend/Carriage2.jpg?raw=true)
+Merge these two parts together using the 2x 16-20mm M3 screws into the centre screw holes. This can be tricky due to the restricted space. Secure them on the back with 2x M3 nylock nuts.
 
-2 Heart Serts are inserted into the prongs on the **X Carriage Front Extruder Plate MK3 V2**. If you are not using a BLTouch or similar leveling probe you can skip this.
+![](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/blob/master/Pics/9%20Titan/TitanPart.JPG?raw=true)
 
-Merge these two parts together using the 2 16-20mm M3 screws into the center screw holes. Secure them on the back with 2 M3 nylock nuts.
+Insert 2 more heat-sert parts into the Titan MK3 Cooling Fan.
 
-![](https://raw.githubusercontent.com/OmNomNomagon/ReDuplicator-MK2sx/master/Pics/9%20Titan/Fan1.jpg)
+![](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/blob/master/Pics/9%20Titan/Fan1.jpg?raw=true)
 
-Insert 2 more heat-sert parts into the **Part Cooling Fan MK3 V2**. Use 2 16mm M3 screws through the bottom x carriage screw holes and into this part. Attach this to the **Part Cooling Fan Bracket MK3 V2** with an M3 x 12mm screw inserted from the bottom and an M3 nylock. The Part Cooling Fan can be installed with a 30mm M4 Nut and Nylock.
+Screw the Fan bracket to the Fan with a 12mm m3 screw and nylock nut. Attach the 50mm blower fan via an M4x25mm screw and M4 Nylock. A rubber washer in between will help to reduce vibrating fan noise.
 
-![](https://raw.githubusercontent.com/OmNomNomagon/ReDuplicator-MK2sx/master/Pics/9%20Titan/Fan2.jpg)
+![](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/blob/master/Pics/9%20Titan/Fan2.jpg?raw=true)
 
+Use 2 16mm M3 screws through the bottom x carriage screw holes and into this part.
 
-Screw the **Part Cooling Fan MK3 V2** to the fan bracket using 2 12mm M3 screws.
-Place your bearings into the carriage. This designs allows you to use 16mm M3 screws to adjust the tension on the bearing. This is very helpful for Igus bearings. I settled on 2 a combination of 2 Igus bearing and a Misumi LM8LUU to give a smooth easy and quiet movement.
+Place your bearings into the carriage. This design allows you to use M3 screws to adjust the tension on the bearing. This is very helpful for Igus bearings. I settled on 2 a copmbination of 2 igus bearing and a misumi LM8LUU to give a smooth easy and quiet movement.
 
-Install the extruder motor, extruder and extruder plate.
+![](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/blob/master/Pics/9%20Titan/FanMount.jpg?raw=true)
 
-![](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/blob/master/Pics/4%20Hotend/Carriage4.jpg?raw=true)
+![](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/blob/master/Pics/9%20Titan/TitanFree.JPG?raw=true)
 
-![](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/blob/master/Pics/4%20Hotend/Carriage5.jpg?raw=true)
+Install the extruder motor and extruder plate as per E3D's throughout instructions. [E3d Titan Aero Instructions](https://wiki.e3d-online.com/Titan_Aero)
 
-Once completed this carriage should be significantly lighter than the original. The original carirage came to 620grams.
-
-![](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/blob/master/Pics/4%20Hotend/WeightOrig.jpg?raw=true)
-
-This new design comes in at 430gramms, around  190grams lighter.
-
-![](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/blob/master/Pics/4%20Hotend/WeightNew.jpg?raw=true)
-
-Continue to assemble the X-axis gantry.
+![](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/blob/master/Pics/9%20Titan/TitanWeight.JPG?raw=true)
 
 
-Z Probe Offset values for marlin configuration
+Once completed this should be significantly lighter than the original. The original MK10 Extruder came to 620 grams.
+This new design comes in at 380 grams, around 240 grams lighter.
 
-\#define X_PROBE_OFFSET_FROM_EXTRUDER 24
+![](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/blob/master/Pics/9%20Titan/TitanClose.JPG?raw=true)
 
-\#define Y_PROBE_OFFSET_FROM_EXTRUDER -36 
+Assembly can continue as per normal. 
 
-
-
-
-
+![](https://raw.githubusercontent.com/OmNomNomagon/ReDuplicator-MK2sx/master/Pics/5%20Gantry/XTension.jpg)
 
 
+Probe Offset values for marlin configuration
 
+\#define X_PROBE_OFFSET_FROM_EXTRUDER -16
 
-
-
+\#define Y_PROBE_OFFSET_FROM_EXTRUDER -42 
