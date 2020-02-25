@@ -14,6 +14,7 @@ menu:
 weight: 7
 ---
 
+![](https://raw.githubusercontent.com/OmNomNomagon/ReDuplicator-MK3x/master/Pics/1%20Glamor%20Shots/DSC03626.jpg)
 
 The Hotend Carriage makes use of the stock Prusa MK2s rod spacing. If you decide to use a different carriage design make sure to use a Prusa compatible one. 
 

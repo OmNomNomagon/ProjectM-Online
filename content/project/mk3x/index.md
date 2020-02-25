@@ -1,6 +1,6 @@
 ---
-title: ReDuplicator MK3x - Wanhao i3 overhaul
-summary: 3D Printer complete redesign
+title: ReDuplicator MK3x - 3d Printer
+summary: Wanhao i3 complete overhaul
 tags:
 - 3d
 - electro
@@ -10,6 +10,6 @@ date: "2020-02-19T00:59:00Z"
 external_link: /docs/mk3x/
 
 image:
-  caption: Wanhao i3  
+  caption: ReDuplicator  
   focal_point: Center
 ---
