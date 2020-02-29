@@ -1,5 +1,5 @@
-[submodule "public"]
-	url = https://github.com/OmNomNomagon/OmNomNomagon.github.io
 [submodule "themes/academia-hugo"]
 	path = themes/academia-hugo
 	url = https://github.com/themefisher/Academia-hugo
+[submodule "public"]
+	url = https://github.com/OmNomNomagon/OmNomNomagon.github.io
