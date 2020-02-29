@@ -22,7 +22,7 @@ enableRobotsTXT = true
 canonifyURLs = true
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+disqusShortname = "Mark Riganti"
 
 ############################
 ## Advanced options below ##

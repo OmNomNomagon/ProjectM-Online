@@ -14,7 +14,7 @@ btn:
 superuser: true
 
 # Role/position
-role: Tinkerer Maker and Coder
+role: Tinkerer, Maker and Coder
 
 # Organizations/Affiliations
 organizations:
@@ -48,15 +48,15 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
+- icon: cubes
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: unity
-  icon_pack: fab
   link: https://www.thingiverse.com/OmNomNomagon/designs
 - icon: github
   icon_pack: fab
   link: https://github.com/OmNomNomagon
+- icon: envelope
+  icon_pack: fas
+  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
