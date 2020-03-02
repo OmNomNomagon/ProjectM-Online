@@ -55,18 +55,19 @@ This project will be maintained both at [github](https://github.com/OmNomNomagon
 
 ### Table Of Contents
 
-- [1. Bill Of Materials](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/wiki/1.--Bill-Of-Materials)
-- [2. Printing Parts & Pre Assembly](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/wiki/2.-Printing-Parts-&-Pre-Assembly)
-- [3. Base](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/wiki/3.-Base)
-- [4. Begin The ZTower](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/wiki/4.-Begin-The-ZTower)
-- [5.1 Hotend MK10 Original](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/wiki/5.1-Hotend-MK10-Original)
-- [5.2 Hotend Titan Aero Upgrade](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/wiki/5.2-Hotend-Titan-Aero-Upgrade)
-- [5.3 Hotend E3D Hemera Upgrade](https://github.com/OmNomNomagon/ReDuplicator-MK3x/wiki/5.3-Hotend-Hemera-upgrade)
-- [6. XAxis Gantry](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/wiki/6.-XAxis-Gantry)
-- [7. Complete the ZTower](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/wiki/7.-Complete--the-ZTower)
-- [8. YAxis](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/wiki/8.--YAxis)
-- [9. Cabling](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/wiki/9.-Cabling)
-- [9.1. Recommendations & Future Dev](https://github.com/OmNomNomagon/ReDuplicator-MK2sx/wiki/9.1.-Recommendations-&-Future-Dev)
+- [1. Bill Of Materials](/docs/mk3x/page1)
+- [2. Printing Parts & Pre Assembly](/docs/mk3x/page2)
+- [3. Base](/docs/mk3x/page3)
+- [4. Begin The ZTower](/docs/mk3x/page4)
+- [5.1 Hotend MK10 Original](/docs/mk3x/page5)
+- [5.2 Upgrade: Hotend Titan Aero](/docs/mk3x/page6)
+- [5.3 Upgrade: Hotend E3D Hemera Upgrade](/docs/mk3x/page7)
+- [5.4 Upgrade: MK52 Headbed Expansion](/docs/mk3x/page8)
+- [6. XAxis Gantry](/docs/mk3x/page9)
+- [7. Complete the ZTower](/docs/mk3x/page10)
+- [8. YAxis](/docs/mk3x/page11)
+- [9. Cabling](/docs/mk3x/page12)
+- [9.1. Recommendations & Future Dev](/docs/mk3x/page13)
 
 ### Thanks and Acknowledgements
 - [Prusa Research MK2s](https://github.com/prusa3d/Original-Prusa-i3) 
