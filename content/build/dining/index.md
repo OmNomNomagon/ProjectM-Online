@@ -57,7 +57,7 @@ The legs are created by laminating 2x merbau floorboard lengths together. One si
 ![table](/img/project/dining/I09.jpg) 
 
 Sand the bottom panel. take care not to hit the merbau supports.
-Fill up the holes in the merbau with woodfill. Sand and prime.
+Fill up the holes in the merbau with wood-fill. Sand and prime.
 
 
 ![table](/img/project/dining/I10.jpg) 
@@ -72,7 +72,7 @@ Give the underside a couple coats of Danish oil.
 
 ![table](/img/project/dining/I12.jpg) 
 
-Flip the table back over and fill the Holes for the legs. Either use araldyte and coffee grounds for a dark effect, or use woodfill, glue and shavings to blend it in.
+Flip the table back over and fill the Holes for the legs. Either use araldite and coffee grounds for a dark effect, or use wood-fill, glue and shavings to blend it in.
 
 ![table](/img/project/dining/I13.jpg) 
 
@@ -80,7 +80,7 @@ Apply 3 coats of danish oil, waiting a day between each coat.
 
 ![table](/img/project/dining/I14.jpg) 
 
-Apply 4-5 coats of bondall gold spar marine varnish. This give excellent outdoor protection.
+Apply 4-5 coats of Bondall gold spar marine varnish. This give excellent outdoor protection.
 
 ![table](/img/project/dining/I15.jpg) 
 

@@ -7,7 +7,8 @@ date: "2020-02-19T00:46:00Z"
 
 
 # Optional external URL for project (replaces project detail page).
-external_link: 
+external_link: "/build/miniplanter"
+
 
 image:
   caption: Mini Planter
