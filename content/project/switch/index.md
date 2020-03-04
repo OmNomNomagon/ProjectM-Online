@@ -7,15 +7,9 @@ date: "2020-02-19T00:54:00Z"
 
 
 # Optional external URL for project (replaces project detail page).
-external_link: 
+external_link: "/build/switch"
 
 image:
   caption: Switch Game Dock
   focal_point: Smart
 ---
-
-This thing keeps all of your game cards close and easily accessible on your switch dock. It is much easier than constantly dealing with a stack of game cases.
-
-It is available in two variants. 
-The straight version (like a scrabble letter holder), will hold up to 7 cards.
-The angled version holds up to 9 cards.
