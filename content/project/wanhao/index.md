@@ -7,7 +7,7 @@ date: "2020-02-19T00:27:00Z"
 
 
 # Optional external URL for project (replaces project detail page).
-external_link: 
+external_link: "/build/wanhao"
 
 image:
   caption: Wanhao Brace

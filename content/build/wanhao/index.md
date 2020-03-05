@@ -55,7 +55,7 @@ Cut the dampening pad into the shapes of the bottom brackets and glue them to th
 
 ### Download 
 
-Downloadable on [thingiverse](https://www.thingiverse.com/thing:1728621
+Downloadable on [thingiverse](https://www.thingiverse.com/thing:1728621)
 
 
 
