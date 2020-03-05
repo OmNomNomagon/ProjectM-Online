@@ -16,13 +16,13 @@ baseURL = "https://riganti.com.au/"
 copyright = " Mark Riganti `{year}`"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "G-EPNEWKB4JT"
 
 enableRobotsTXT = true
 canonifyURLs = true
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = "Mark Riganti"
+disqusShortname = "riganti"
 
 ############################
 ## Advanced options below ##
@@ -59,7 +59,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 
 [imaging]
   resampleFilter = "lanczos"
-  quality = 90
+  quality = 95
   anchor = "Center"  # Anchor for cropping. Options include Smart and Center.
 
 # Taxonomies.
