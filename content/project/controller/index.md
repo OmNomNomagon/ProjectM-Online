@@ -1,5 +1,5 @@
 ---
-title: Wanhao 24v Gen-L TMC2130 upgrade
+title: Wanhao 24v Gen-L TMC2130
 summary: Wahnao i3 controller upgrade		 
 tags:
 - 3d
