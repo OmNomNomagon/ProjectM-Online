@@ -22,7 +22,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/spice/G1.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "project/spicer/G1.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
 
 
@@ -32,7 +32,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/spice/G2.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "project/spicer/G2.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
  
   
@@ -43,7 +43,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/spice/G3.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "project/spicer/G3.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
   
   
@@ -53,7 +53,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/spice/G4.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "project/spicer/G4.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
   
   
@@ -63,7 +63,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/spice/G5.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "project/spicer/G5.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
  
 
