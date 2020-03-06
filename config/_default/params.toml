@@ -12,7 +12,7 @@ day_night = false
 font = "classic"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Mark Riganti's Project Website"
+description = "Mark Riganti Project Website"
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
 sharing_image = "mustangB.jpg"
