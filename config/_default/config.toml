@@ -16,7 +16,7 @@ baseURL = "https://riganti.com.au/"
 copyright = " Mark Riganti `{year}`"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "G-EPNEWKB4JT"
+googleAnalytics = "UA-158796585-1"
 
 enableRobotsTXT = true
 canonifyURLs = true
