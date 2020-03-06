@@ -1,6 +1,8 @@
 ---
 title: Hemera Hotend Upgrade	
 summary: For Reduplicator MK3x
+description: E3d Hemera hotend upgrade for the Reduplicator MK3x
+author: Mark Riganti  
 tags:
 - 3d
 date: "2020-02-19T00:49:00Z"

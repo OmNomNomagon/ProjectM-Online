@@ -68,3 +68,12 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
+
+
+[params]
+	#optional use as main title instead of title field
+	maintitle = "Code : Cad : Carve : Create"
+	#use replybox for comments. add unique code
+	replybox = "NPOBOrWnVa"
+	#description for google summary
+	sitedescription = "Mark Riganti's Project Website. A Collection of CAD, Coding, Woodwork and Electronics Projects. CODE, CAD, CARVE, CREATE"

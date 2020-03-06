@@ -1,6 +1,8 @@
 ---
 title: riganti.com.au
 summary: personal website powered by hugo
+description: Media server service consolidation website by Mark Riganti 
+author: Mark Riganti 
 tags:
 - dev
 date: "2020-02-19T00:24:00Z"

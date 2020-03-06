@@ -1,6 +1,8 @@
 ---
 title: 3D Moon Lamp
-summary: Meranti stand and lunar lander		 
+summary: Meranti stand and lunar lander		
+description: 3D lithograph moon lamp and meranti stand with lunar lander by Mark Riganti 
+author: Mark Riganti  
 tags:
 - 3d
 - wood

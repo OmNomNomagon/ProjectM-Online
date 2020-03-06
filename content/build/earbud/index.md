@@ -1,6 +1,8 @@
 ---
-title: Scotch headphone Stand
-summary: Turn any alco bottle into a stand.		 
+title: Earbuddy earphone case
+summary: Earbuddy case for earbuds.		 
+description: Earbuddy, 3d printed earphone case for iems and earphones by Mark Riganti 
+author: Mark Riganti 
 tags:
 - 3d
 date: "2020-02-19T00:30:00Z"
@@ -10,27 +12,20 @@ type: "widget_page"
 ---
 
 
-This thing will turn your whisky bottles into a classy headphone stand.
-It is a redesign of my original [here](https://www.thingiverse.com/thing:1729644). This one includes two rings for added stability and better looks compared to the original. 
+An earphone holder with modern styling.
+Lots of entry points to secure the buds and jack.
 
-Most Whiskeys bottles will fit withing the two tapered rings
-The Upper ring around the cap tapers between 24-38mm.
-The Lower ring around the neck tapers between 38-43mm
+Comes in three versions.
+Double sided with a flat base
+Double sided with a tapered base
+Single sided with a flat base.
 
-I've confirmed that this will fit on the following Whisky bottles:
-Lapphroaig
-Lagavulin
-Yamasaki
-Jack Daniels
-Glenfiddich
-Cragganmore
-Ardberg
-Glenlivet
-Glenmorangie
+The stock sizes should fit most earphones and buds perfectly. You may need to increase or decrease the %size depending on if your buds are larger or smaller than most.
+
 
 Enjoy.
 
 
 ### Download 
 
-Downloadable on [thingiverse](https://www.thingiverse.com/thing:2263144)
+Downloadable on [thingiverse](https://www.thingiverse.com/thing:2263170)

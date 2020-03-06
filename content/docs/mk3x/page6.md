@@ -1,6 +1,8 @@
 ---
 title: 3.2 Hotend Upgrade E3d Titan Aero
 linktitle: 3.2 Hotend Upgrade Titan Aero
+description: Reduplicator i3 MK3x 3d Printer. E3D Titan Aero hotend upgrade instuctions by Mark riganti
+author: Mark Riganti
 toc: true
 type: docs
 date: "2019-05-05T00:00:00+01:00"

@@ -1,6 +1,8 @@
 ---
 title: 3.1 Hotend MK10 Original
 linktitle: 3.1 Hotend MK10 Original
+description: Reduplicator i3 MK3x 3d Printer. MK10 Original hotend instuctions by Mark riganti
+author: Mark Riganti
 toc: true
 type: docs
 date: "2019-05-05T00:00:00+01:00"

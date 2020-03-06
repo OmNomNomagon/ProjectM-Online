@@ -1,6 +1,8 @@
 ---
 title:  1.1 Bill Of Materials
 linktitle: 1.1 Bill Of Materials
+description: Reduplicator MK3x 3d Printer Bill of materials by Mark riganti
+author: Mark Riganti
 toc: true
 type: docs
 date: "2019-05-05T00:00:00+01:00"

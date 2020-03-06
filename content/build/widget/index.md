@@ -1,6 +1,8 @@
 ---
 title: Download Tracking Widgets
 summary: Desktop widgets tracking data downloads 
+description: Download Tracking python and powershell scripts displayed by rainmeter by Mark Riganti 
+author: Mark Riganti 	
 tags:
 - dev
 date: "2020-02-19T00:25:00Z"

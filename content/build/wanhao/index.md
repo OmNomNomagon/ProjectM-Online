@@ -1,6 +1,8 @@
 ---
-title: Wanhao Straight Braces
-summary: Increases i3 Regidity		 
+title: Wanhao i3 Straight Braces
+summary: Increases i3 Regidity	
+description: Wanhao i3 straight braces for improved regidity by Mark Riganti 
+author: Mark Riganti 	
 tags:
 - 3d
 date: "2020-02-19T00:27:00Z"

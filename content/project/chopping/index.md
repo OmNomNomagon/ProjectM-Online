@@ -1,6 +1,8 @@
 ---
 title: Ironbark Chopping Board
 summary: Red Ironbark
+description: Bench top Chopping board made from Red Ironbark scraps by Mark Riganti 
+author: Mark Riganti 
 tags:
 - wood
 date: "2020-02-19T00:52:00Z"

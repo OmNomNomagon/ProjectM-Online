@@ -1,6 +1,8 @@
 ---
 title: Ironbark Speaker Stands
 summary: Angled Speaker Stand 
+description: Angled Speaker floor stands made from reclaimed red gum by mark riganti 
+author: Mark Riganti 
 tags:
 - audio
 date: "2020-02-19T00:38:00Z"

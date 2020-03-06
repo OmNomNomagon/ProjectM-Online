@@ -1,6 +1,8 @@
 ---
 title: MK52 Heatbed Expansion
 summary: Upgrade for ReDuplicator MK3x
+description: Prusa MK52 Heatbed expansion for Reduplicator MK3x by Mark Riganti 
+author: Mark Riganti 
 tags:
 - 3d
 - electro

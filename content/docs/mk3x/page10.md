@@ -1,6 +1,8 @@
 ---
 title: 4.2 Complete The Z Tower
 linktitle: 4.2 Complete The Z Tower
+description: Reduplicator i3 MK3x 3d Printer. Z tower instuctions  by Mark riganti
+author: Mark Riganti
 toc: true
 type: docs
 date: "2019-05-05T00:00:00+01:00"

@@ -1,6 +1,8 @@
 ---
 title: Sonoff Dual USB
 summary: smart switch
+description: Sonoff R2 RF Basic smart witch and Dual USB 3d printed enclosure by Mark Riganti 
+author: Mark Riganti 
 tags:
 - electro
 date: "2020-02-19T00:45:00Z"

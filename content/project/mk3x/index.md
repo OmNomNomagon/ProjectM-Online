@@ -1,6 +1,8 @@
 ---
 title: ReDuplicator MK3x - 3d Printer
 summary: Wanhao i3 complete overhaul
+description: ReDuplicator Mk3x 3d Printer. wanhao i3 complete overhaul by Mark Riganti
+author: Mark Riganti
 tags:
 - 3d
 - electro

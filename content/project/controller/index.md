@@ -1,6 +1,8 @@
 ---
 title: Wanhao 24v Gen-L TMC2130
-summary: Wahnao i3 controller upgrade		 
+summary: Wahnao i3 controller upgrade		
+description: Wanhao 3d printer controller update with MKs Gen-L trinamic 2130  drivers and 24v upgrade by Mark Riganti 
+author: Mark Riganti  
 tags:
 - 3d
 - electro

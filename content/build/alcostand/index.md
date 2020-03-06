@@ -1,6 +1,8 @@
 ---
-title: Scotch headphone Stand
-summary: Turn any alco bottle into a stand.		 
+title: Scotch Bottle Alcohol headphone Stand
+summary: Turn any alco bottle into a stand.		
+description: Turn any Scotch or alcohol bottle into a headphone stand by Mark Riganti.		
+author: Mark Riganti 
 tags:
 - 3d
 date: "2020-02-19T00:30:00Z"

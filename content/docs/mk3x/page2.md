@@ -1,6 +1,8 @@
 ---
 title:  1.2 Printing Parts & Pre Assembly
 linktitle: 1.2 Printing Parts & Pre Assembly
+description: Reduplicator i3 MK3x 3d Printer. Printing and pre assembly  by Mark riganti
+author: Mark Riganti
 toc: true
 type: docs
 date: "2019-05-05T00:00:00+01:00"

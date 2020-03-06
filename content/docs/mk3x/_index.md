@@ -6,6 +6,8 @@ weight: 1
 
 # Page metadata.
 title: ReDuplicator MK3x - Wanhao i3 overhaul
+description: Reduplicator i3 MK3x 3d Printer.Wanhao i3 overhaul. Complete Instuctions by Mark riganti
+author: Mark Riganti
 date: "2018-09-09T00:00:00Z"
 lastmod: "2018-09-09T00:00:00Z"
 draft: false  # Is this a draft? true/false

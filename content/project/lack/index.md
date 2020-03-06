@@ -1,6 +1,8 @@
 ---
 title: Wanaho Lack Triple Stack	
 summary: 3d Printer enclosure
+description: Drevo Calibur keyboard mods, Gateron brown switches, PBT keycaps by Mark Riganti 
+author: Mark Riganti 
 tags:
 - 3d
 date: "2020-02-19T00:48:00Z"

@@ -1,6 +1,8 @@
 ---
-title: Titan Aero Upgrade
-summary: For Reduplicator MK3x		 
+title: E3D Titan Aero Upgrade
+summary: For Reduplicator MK3x	
+description: E3D Titan Aero hotend Upgrade for Reduplicator MK3x by Mark Riganti
+author: Mark Riganti	 
 tags:
 - 3d
 date: "2020-02-19T00:32:00Z"
