@@ -2,4 +2,5 @@
 	path = public
 	url = https://github.com/OmNomNomagon/OmNomNomagon.github.io
 [submodule "themes/Academia-hugo"]
+	path = themes/Academia-hugo
 	url = https://github.com/OmNomNomagon/Academia-hugo

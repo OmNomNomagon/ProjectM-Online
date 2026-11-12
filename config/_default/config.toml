@@ -40,10 +40,14 @@ hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issues/5687
 
-paginate = 20  # Number of items per page in paginated lists.
+# `paginate` was replaced by [pagination].pagerSize in Hugo 0.128. The old key is now
+# ignored silently, which drops list pages to Hugo's default of 10 items per page.
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[pagination]
+  pagerSize = 20  # Number of items per page in paginated lists.
 
 [outputs]
   home = [ "HTML", "RSS", "JSON" ]

@@ -1,0 +1,14 @@
+# Hugo's image/SCSS processing cache. Regenerated from content/ and assets/ on every
+# build, so there is nothing here that cannot be rebuilt. It was previously tracked
+# (479 files); the Hugo 0.169 upgrade changed the generated-image naming scheme, which
+# would have orphaned every one of them and added ~90 new ones on each future build.
+resources/_gen/
+
+# Hugo's concurrent-build lock. Transient.
+.hugo_build.lock
+
+# Windows / OneDrive droppings. Note: 18 desktop.ini files are still tracked and are
+# live on the site - see IMPROVEMENTS.md. This stops any new ones appearing.
+desktop.ini
+Thumbs.db
+ehthumbs.db
