@@ -82,6 +82,13 @@ entries come from each page's `menu:` front matter block.
   nothing, restart the server rather than assuming the change was wrong.
 - **Hugo serialises builds on `.hugo_build.lock`.** Running `build.ps1` while the preview
   server is up would hang forever, so the script passes `--noBuildLock`.
+- **Never run a bare `hugo server` here.** Since Hugo 0.123 the server renders to
+  `publishDir` *on disk* by default, and `publishDir` is `./public` — the live-site
+  submodule. A bare `hugo server` therefore fills the deploy repo with pages carrying
+  injected `livereload` `<script>` tags pointing at `localhost:1313`, which would go
+  straight to production on the next deploy. `serve.ps1` passes `--renderToMemory` to
+  prevent this. If `public/` ever shows unexpected modifications, that is the cause:
+  `cd public && git reset --hard origin/master`.
 - **`paginate` is dead.** Use `[pagination].pagerSize`. The old key is ignored *silently*
   and list pages quietly fall back to 10 items per page.
 
