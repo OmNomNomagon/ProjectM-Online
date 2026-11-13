@@ -1,12 +1,12 @@
 ---
 title: Lego Saturn V Stand
 summary: Additional stands
-description: Lego Saturn V additional horizontal stands by Mark Riganti.		
-author: Mark Riganti 
+description: Lego Saturn V additional horizontal stands by Mark Riganti.
+author: Mark Riganti
 tags:
 - 3d
-date: "2020-02-19T00:41:00Z"
-type: "widget_page" 
+date: "2020-07-08T00:00:00Z"
+type: "widget_page"
 
 
 ---

@@ -1,12 +1,12 @@
 ---
 title: Modern Red Ironbark Desk
 summary: Red Ironbark Desk
-description: Modern Red Ironbark and Merbau Desk by Mark Riganti 
-author: Mark Riganti 
+description: Modern Red Ironbark and Merbau Desk by Mark Riganti
+author: Mark Riganti
 tags:
 - wood
-date: "2020-02-19T00:51:00Z"
-type: "widget_page" 
+date: "2020-09-23T00:00:00Z"
+type: "widget_page"
 
 
 ---

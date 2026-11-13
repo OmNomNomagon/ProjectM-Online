@@ -1,7 +1,7 @@
 ---
-title: 3.4 Headbed upgrade MK52
-linktitle: 3.4 Headbed upgrade MK52
-description: Reduplicator i3 MK3x 3d Printer. MK52 heatbed expansion instuctions by Mark riganti
+title: 3.4 Heatbed upgrade MK52
+linktitle: 3.4 Heatbed upgrade MK52
+description: Reduplicator i3 MK3x 3d Printer. MK52 heatbed expansion instructions by Mark Riganti
 author: Mark Riganti
 toc: true
 type: docs

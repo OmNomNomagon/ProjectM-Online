@@ -1,12 +1,12 @@
 ---
-title: Ironbark outdoor Chairs	
+title: Ironbark outdoor Chairs
 summary: Improved ikea Tarno chairs
-description: Ikea Tarno chairs replace with finished Red Ironbark by Mark Riganti 
-author: Mark Riganti 
+description: Ikea Tarno chairs replace with finished Red Ironbark by Mark Riganti
+author: Mark Riganti
 tags:
 - wood
-date: "2020-02-19T00:46:00Z"
-type: "widget_page" 
+date: "2020-08-12T00:00:00Z"
+type: "widget_page"
 
 
 ---

@@ -1,12 +1,12 @@
 ---
 title: Modern Red Ironbark Dining Table
 summary: Modern dining table
-description: Modern Red Ironbark and Merbau Dining Table by Mark Riganti 
-author: Mark Riganti 
+description: Modern Red Ironbark and Merbau Dining Table by Mark Riganti
+author: Mark Riganti
 tags:
 - wood
-date: "2020-02-19T00:53:00Z"
-type: "widget_page" 
+date: "2020-10-14T00:00:00Z"
+type: "widget_page"
 
 
 ---

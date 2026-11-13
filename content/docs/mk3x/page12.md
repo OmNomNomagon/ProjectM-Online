@@ -1,7 +1,7 @@
 ---
 title: 4.4 Cabling
 linktitle: 4.4 Cabling
-description: Reduplicator i3 MK3x 3d Printer. Cablegami instuctions by Mark riganti
+description: Reduplicator i3 MK3x 3d Printer. Cablegami instructions by Mark Riganti
 author: Mark Riganti
 toc: true
 type: docs

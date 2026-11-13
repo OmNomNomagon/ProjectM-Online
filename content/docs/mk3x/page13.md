@@ -1,7 +1,7 @@
 ---
 title: 5.1. Recommendations & Future Dev
 linktitle: 5.1. Recommendations & Future Dev
-description: Reduplicator i3 MK3x 3d Printer. Recommendations and future dev  by Mark riganti
+description: Reduplicator i3 MK3x 3d Printer. Recommendations and future dev  by Mark Riganti
 author: Mark Riganti
 toc: true
 type: docs

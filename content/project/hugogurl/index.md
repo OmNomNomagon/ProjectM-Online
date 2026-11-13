@@ -1,8 +1,8 @@
 ---
 title: Hugo-Gurl - Hugo GUI tool
 summary: GUI tool to maintain and build hugo websites.
-description: Hugo-Gurl. Gui tool to aid in building and generating hugo static websites by Mark Riganti 
-author: Mark Riganti 
+description: Hugo-Gurl. Gui tool to aid in building and generating hugo static websites by Mark Riganti
+author: Mark Riganti
 tags:
 - dev
 date: "2020-02-26T00:00:00Z"
@@ -10,7 +10,7 @@ weight: 2150
 
 
 # Optional external URL for project (replaces project detail page).
-external_link: "/build/hugogurl"
+external_link: "/build/hugogurl/"
 
 image:
   caption: hugogurl

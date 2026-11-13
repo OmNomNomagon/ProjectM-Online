@@ -1,8 +1,8 @@
 ---
 title: Audio Technica ES10 Mod
-summary: Over ear pad mod		 
-description: Audio Technica over ear earpad  by Mark Riganti 3d printed mod by mark riganti.
-author: Mark Riganti 
+summary: Over ear pad mod
+description: 3D printed earpad mod for Audio-Technica over-ear headphones by Mark Riganti.
+author: Mark Riganti
 tags:
 - audio
 - 3d
@@ -11,7 +11,7 @@ weight: 1500
 
 
 # Optional external URL for project (replaces project detail page).
-external_link: "/build/es10"
+external_link: "/build/es10/"
 
 image:
   caption: Audio Technica ES10

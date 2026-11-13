@@ -1,12 +1,12 @@
 ---
 title: Switch Dock Game Holder
 summary: "7 Card Game Dock"
-description: Switch dock game cartridge holder for 7-9 cards. by Mark Riganti 
-author: Mark Riganti 
+description: Switch dock game cartridge holder for 7-9 cards. by Mark Riganti
+author: Mark Riganti
 tags:
 - 3d
-date: "2020-02-19T00:54:00Z"
-type: "widget_page" 
+date: "2020-10-21T00:00:00Z"
+type: "widget_page"
 
 
 ---

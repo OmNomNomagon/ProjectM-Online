@@ -6,7 +6,7 @@ weight: 1
 
 # Page metadata.
 title: ReDuplicator MK3x - Wanhao i3 overhaul
-description: Reduplicator i3 MK3x 3d Printer.Wanhao i3 overhaul. Complete Instuctions by Mark riganti
+description: Reduplicator i3 MK3x 3D Printer. Wanhao i3 overhaul. Complete Instuctions by Mark Riganti
 author: Mark Riganti
 date: "2018-09-09T00:00:00Z"
 lastmod: "2018-09-09T00:00:00Z"
@@ -65,7 +65,7 @@ This project will be maintained both at [github](https://github.com/OmNomNomagon
 - [5.1 Hotend MK10 Original](/docs/mk3x/page5)
 - [5.2 Upgrade: Hotend Titan Aero](/docs/mk3x/page6)
 - [5.3 Upgrade: Hotend E3D Hemera Upgrade](/docs/mk3x/page7)
-- [5.4 Upgrade: MK52 Headbed Expansion](/docs/mk3x/page8)
+- [5.4 Upgrade: MK52 Heatbed Expansion](/docs/mk3x/page8)
 - [6. XAxis Gantry](/docs/mk3x/page9)
 - [7. Complete the ZTower](/docs/mk3x/page10)
 - [8. YAxis](/docs/mk3x/page11)

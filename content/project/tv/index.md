@@ -10,7 +10,7 @@ weight: 250
 
 
 # Optional external URL for project (replaces project detail page).
-external_link: "/build/tv"
+external_link: "/build/tv/"
 
 image:
   caption: Tv Unit

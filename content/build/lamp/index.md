@@ -1,14 +1,14 @@
 ---
 title: Converging LED Floor Lamp
 summary: For Ikea SPANST lamps
-description: Converging LED Floor Lamp built with Ikea Spanst LED light tubes by Mark Riganti 
-author: Mark Riganti 
+description: Converging LED Floor Lamp built with Ikea Spanst LED light tubes by Mark Riganti
+author: Mark Riganti
 tags:
 - wood
 - 3d
 - electro
-date: "2020-02-19T00:55:00Z"
-type: "widget_page" 
+date: "2020-10-28T00:00:00Z"
+type: "widget_page"
 
 
 # Optional header image (relative to `static/img/` folder).

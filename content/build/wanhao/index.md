@@ -1,12 +1,12 @@
 ---
 title: Wanhao i3 Straight Braces
-summary: Increases i3 Regidity	
-description: Wanhao i3 straight braces for improved regidity by Mark Riganti 
-author: Mark Riganti 	
+summary: Increases i3 rigidity
+description: Wanhao i3 straight braces for improved rigidity by Mark Riganti
+author: Mark Riganti
 tags:
 - 3d
-date: "2020-02-19T00:27:00Z"
-type: "widget_page" 
+date: "2020-03-25T00:00:00Z"
+type: "widget_page"
 
 
 ---
@@ -18,14 +18,14 @@ An alternate set of Z Braces to improve the rigidity of the printer. Compatible 
 
 These braces are designed to have straight rods for aesthetic reasons, with the rods positioned as close together as possible to maintain rigidity. Typhon's Top Braces impede into the build area of the printer which decreased the usable Z height by 20mm. These braces regain that space by moving the rod mount to above the bottom inner screw. These brackets also clip around the front and back of the base to improve rigidity.
 
-Build Of materials
+### Bill of materials
 
 - 8x 3/8"  Hex Nuts
 - 2x 3/8" Threaded rods cut to 365-375mm 
 - 20x M3 x 15 mm screws
 - Optional Anti Vibration Pad. https://www.bunnings.com.au/whites-100mm-x-1m-anti-vibration-pad_p3961983 (Significantly Reduces Vibration and lowers sound levels)
 
-<h2>Update June 2017 </h2>
+### Update June 2017
 
 Added a number of additional parts to increase the rigidity of the printer.
  - Optional Tower feet (Increases lateral stability)
@@ -45,7 +45,7 @@ Install the Bottom Rear left and right brackets with 3x M3 screws each.
 
 Screw the threaded rod into the top mounts and lock it in with 2 nuts on each side.
 
-On the end of each rod, screw in a nut - front bracket - nut. Attach the the front bracket to the frame. Use a square against the vertical frame to ensure the printer remains 90 degrees square to the ground. Screw the rods in back and forth as needed till the vertical frame is perfectly level.
+On the end of each rod, screw in a nut - front bracket - nut. Attach the front bracket to the frame. Use a square against the vertical frame to ensure the printer remains 90 degrees square to the ground. Screw the rods in back and forth as needed till the vertical frame is perfectly level.
 
 Optional.
 

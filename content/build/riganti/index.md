@@ -1,12 +1,12 @@
 ---
 title: riganti.com.au
 summary: personal website powered by hugo
-description: riganti.com.au Mark Riganti's Personal Project Website by Mark Riganti 
-author: Mark Riganti 
+description: riganti.com.au Mark Riganti's Personal Project Website by Mark Riganti
+author: Mark Riganti
 tags:
 - dev
-date: "2020-02-19T00:24:00Z"
-type: "widget_page" 
+date: "2020-03-04T00:00:00Z"
+type: "widget_page"
 
 
 ---

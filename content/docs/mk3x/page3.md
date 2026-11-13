@@ -1,7 +1,7 @@
 ---
 title: 2.1 Base
 linktitle: 2.1 Base
-description: Reduplicator i3 MK3x 3d Printer. Base extrusion instuctions  by Mark riganti
+description: Reduplicator i3 MK3x 3d Printer. Base extrusion instructions  by Mark Riganti
 author: Mark Riganti
 toc: true
 type: docs

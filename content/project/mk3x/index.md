@@ -13,6 +13,6 @@ weight: 200
 external_link: /docs/mk3x/
 
 image:
-  caption: ReDuplicator  
+  caption: ReDuplicator
   focal_point: Center
 ---

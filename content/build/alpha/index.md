@@ -1,13 +1,13 @@
 ---
-title: Open Alpha Headphones with 3.5mm connector	
+title: Open Alpha Headphones with 3.5mm connector
 summary: MrSpeaers open alpha mod
 description: Mr Speakers open alpha headphones mod for 3.5mm connectors by Mark Riganti
-author: Mark Riganti 
+author: Mark Riganti
 tags:
 - 3d
 - audio
-date: "2020-02-19T00:47:00Z"
-type: "widget_page" 
+date: "2020-08-26T00:00:00Z"
+type: "widget_page"
 
 
 ---

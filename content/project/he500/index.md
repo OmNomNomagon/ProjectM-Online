@@ -1,8 +1,8 @@
 ---
-title: HiFiman He-500 Mod	
-summary: Headband, dampening and pads mod	
-description: Colleciton of HiFiman he500 mods. including headband, 3.5mm cable grill, pad, fuzzor. by Mark Riganti 
-author: Mark Riganti  
+title: HiFiman He-500 Mod
+summary: Headband, dampening and pads mod
+description: Colleciton of HiFiman he500 mods. including headband, 3.5mm cable grill, pad, fuzzor. by Mark Riganti
+author: Mark Riganti
 tags:
 - audio
 date: "2020-06-03T00:00:00Z"
@@ -10,7 +10,7 @@ weight: 1450
 
 
 # Optional external URL for project (replaces project detail page).
-external_link: "/build/he500"
+external_link: "/build/he500/"
 
 image:
   caption: He500

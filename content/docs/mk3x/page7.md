@@ -1,7 +1,7 @@
 ---
 title: 3.3 Hotend Upgrade E3D Hemera
 linktitle: 3.3 Hotend Upgrade Hemera
-description: Reduplicator i3 MK3x 3d Printer. E3D Hemera Hotend upgrade instuctions by Mark riganti
+description: Reduplicator i3 MK3x 3d Printer. E3D Hemera Hotend upgrade instructions by Mark Riganti
 author: Mark Riganti
 toc: true
 type: docs

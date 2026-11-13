@@ -2,11 +2,11 @@
 title: Modern Red Gum Coffee Table
 summary: Made from reclaimed Red gum
 description: modern red gum reclaimed wood coffee table by Mark Riganti
-author: Mark Riganti 
+author: Mark Riganti
 tags:
 - wood
-date: "2020-02-19T00:56:00Z"
-type: "widget_page" 
+date: "2020-11-04T00:00:00Z"
+type: "widget_page"
 
 
 # Optional header image (relative to `static/img/` folder).

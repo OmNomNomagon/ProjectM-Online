@@ -1,12 +1,12 @@
 ---
-title: Wanaho Lack Triple Stack 3D Printer Enclosure
+title: Wanhao Lack Triple Stack 3D Printer Enclosure
 summary: 3d Printer enclosure
-description: Wanaho Lack Triple Stack 3D Printer Enclosure by Mark Riganti 
-author: Mark Riganti 
+description: Wanhao Lack Triple Stack 3D Printer Enclosure by Mark Riganti
+author: Mark Riganti
 tags:
 - 3d
-date: "2020-02-19T00:48:00Z"
-type: "widget_page" 
+date: "2020-09-02T00:00:00Z"
+type: "widget_page"
 
 
 ---

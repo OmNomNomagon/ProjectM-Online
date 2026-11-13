@@ -10,7 +10,7 @@ weight: 350
 
 
 # Optional external URL for project (replaces project detail page).
-external_link: "/build/coffee"
+external_link: "/build/coffee/"
 
 image:
   caption: Coffee Table

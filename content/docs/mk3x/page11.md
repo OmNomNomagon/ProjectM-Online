@@ -1,7 +1,7 @@
 ---
 title: 4.3 Y Axis
 linktitle: 4.3 Y Axis
-description: Reduplicator i3 MK3x 3d Printer. Y axis instuctions  by Mark riganti
+description: Reduplicator i3 MK3x 3d Printer. Y axis instructions  by Mark Riganti
 author: Mark Riganti
 toc: true
 type: docs

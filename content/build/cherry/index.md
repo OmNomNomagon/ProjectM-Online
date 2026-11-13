@@ -2,11 +2,11 @@
 title: Cherry Popper tool
 summary: Cherry MX keyboard switch opening tool.
 description: Cherry Popper Cherry MX keyboard switch opening tool by Mark Riganti
-author: Mark Riganti 
+author: Mark Riganti
 tags:
 - 3d
-date: "2020-02-19T00:42:00Z"
-type: "widget_page" 
+date: "2020-07-15T00:00:00Z"
+type: "widget_page"
 
 
 ---
