@@ -681,8 +681,12 @@ Cloudflare dashboard → riganti.com.au → **Caching → Cache Rules → Create
    - Edge TTL: **Ignore cache-control header and use this TTL → 1 month**
    - Browser TTL: **Override origin → 1 year**
 2. **"Other static images — 1 week"**
-   - Expression: `(starts_with(http.request.uri.path, "/img/")) or (starts_with(http.request.uri.path, "/project/"))`
-     (rule 1 sits above it, so fingerprinted files still get a year)
+   - Expression: `(http.request.uri.path.extension in {"jpg" "jpeg" "png" "gif" "webp" "avif" "svg" "ico"} and not http.request.uri.path contains "_hu_")`
+     (images only, by extension: the earlier `starts_with "/project/"` version also
+     matched the `/project/<name>/` redirect pages, which are HTML. It excludes `_hu_`
+     files explicitly because when several Cloudflare cache rules match, the later
+     rule wins on conflicting settings, so relying on rule order would have cut the
+     fingerprinted images back to a week.)
    - Eligible for cache; Edge TTL 1 week; Browser TTL override **1 week**
 
 Leave HTML alone (it already passes through uncached), so deploys show instantly.
