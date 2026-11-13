@@ -5,7 +5,8 @@ description: Acacia wood mini herb planter boxes by Mark Riganti
 author: Mark Riganti 
 tags:
 - wood
-date: "2020-02-19T00:46:00Z"
+date: "2020-08-19T00:00:00Z"
+weight: 900
 
 
 # Optional external URL for project (replaces project detail page).

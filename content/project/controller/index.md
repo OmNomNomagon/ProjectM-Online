@@ -6,7 +6,8 @@ author: Mark Riganti
 tags:
 - 3d
 - electro
-date: "2020-02-19T00:28:00Z"
+date: "2020-04-01T00:00:00Z"
+weight: 1900
 
 
 # Optional external URL for project (replaces project detail page).

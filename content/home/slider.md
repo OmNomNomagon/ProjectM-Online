@@ -13,78 +13,46 @@ interval = 10000
 # E.g. `100px` for 500 pixels or `calc(100vh - 70px)` for full screen.
 height = "calc(88vh)"
 
-# Slides.
-# Duplicate an `[[item]]` block to add more slides.
+# The hero is the largest image on the site, so it gets the extra 2560 width.
+image_widths = [1280, 1920, 2560]
 
+# Static caption. Rendered ONCE, above the slides, and does not move with them.
+# This is the page's only <h1>, so it carries the search weight.
+hero_title = "Mark Riganti’s Projects"
+hero_lead_items = ["Woodworking", "3D design", "Electronics", "Audio", "Code builds from the Gong"]
+hero_align = "center"
+# Tagline separator: "dot" (CSS circles, brackets the line) or "slash" (literal //).
+lead_sep = "chev"
+cta_label = "Explore"
+cta_aria_label = "Explore projects"
+cta_url = "#projects"
 
-[[item]]
-  title = ""
-  content = "Mark Riganti Portfolio"
-  align = "center"
-
-  overlay_color = "#333"  # An HTML color value.
-  overlay_img = "slider/PlantDog.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.55  # Darken the image. Value in range 0-1.
-  
-  cta_label = "Projects "
-  cta_url = "#projects"
-  
-
-[[item]]
-  title = ""
-  content = "Mark Riganti Portfolio"
-  align = "center"  # Choose `center`, `left`, or `right`.
-
-  # Overlay a color or image (optional).
-  #   Deactivate an option by commenting out the line, prefixing it with `#`.
-  overlay_color = "#666"  # An HTML color value.
-  overlay_img = "slider/mustangB.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.55  # Darken the image. Value in range 0-1.
-
-  # Call to action button (optional).
-  #   Activate the button by specifying a URL and button label below.
-  #   Deactivate by commenting out parameters, prefixing lines with `#`.
-  cta_label = "Projects "
-  cta_url = "#projects"
-
+# Slides. Photos only now -- caption and button live above, not per slide.
+# `overlay_img` is resolved from `assets/img/`, so Hugo can resize and re-encode it.
+# Duplicate an `[[item]]` block to add another photo.
 
 [[item]]
-  title = ""
-  content = "Mark Riganti Portfolio"
-  align = "center"
-
-  overlay_color = "#555"  # An HTML color value.
-  overlay_img = "slider/blur-small.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.55  # Darken the image. Value in range 0-1.
-
-  cta_label = "Projects "
-  cta_url = "#projects"
-
+  overlay_color = "#333"
+  overlay_img = "slider/PlantDog.jpg"
+  overlay_filter = 0.6
 
 [[item]]
-  title = ""
-  content = "Mark Riganti Portfolio"
-  align = "center"
+  overlay_color = "#666"
+  overlay_img = "slider/mustangB.jpg"
+  overlay_filter = 0.6
 
-  overlay_color = "#333"  # An HTML color value.
-  overlay_img = "slider/shuffle-small.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.55  # Darken the image. Value in range 0-1.
-  
-  cta_label = "Projects "
-  cta_url = "#projects"
-  
-  
 [[item]]
-  title = ""
-  content = "Mark Riganti Portfolio"
-  align = "center"
+  overlay_color = "#555"
+  overlay_img = "slider/blur-small.jpg"
+  overlay_filter = 0.6
 
-  overlay_color = "#333"  # An HTML color value.
-  overlay_img = "slider/shuttle-small.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.55  # Darken the image. Value in range 0-1.
-  
-  cta_label = "Projects "
-  cta_url = "#projects"
-  
-  
+[[item]]
+  overlay_color = "#333"
+  overlay_img = "slider/shuffle-small.jpg"
+  overlay_filter = 0.6
+
+[[item]]
+  overlay_color = "#333"
+  overlay_img = "slider/shuttle-small.jpg"
+  overlay_filter = 0.6
 +++

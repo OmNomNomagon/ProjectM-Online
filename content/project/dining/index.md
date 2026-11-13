@@ -5,7 +5,8 @@ description: Modern Red Ironbark and Merbau Dining Table by Mark Riganti
 author: Mark Riganti 
 tags:
 - wood
-date: "2020-02-19T00:53:00Z"
+date: "2020-10-14T00:00:00Z"
+weight: 500
 
 
 # Optional external URL for project (replaces project detail page).

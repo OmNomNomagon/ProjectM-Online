@@ -6,7 +6,9 @@ active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
 title = "My Projects"
-subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY"
+title_chevrons = true  # Bracket the heading as << My Projects >> (navbar chevron style).
+# The `\\` + newline is a Markdown hard line break, so the quote splits after "easy,".
+subtitle = "We do things not because they are easy,\\\nbut because we thought they would be easy."
 
 [content]
   # Page type to display. E.g. project.

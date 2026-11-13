@@ -7,7 +7,8 @@ tags:
 - wood
 - 3d
 - electro
-date: "2020-02-19T00:55:00Z"
+date: "2020-10-28T00:00:00Z"
+weight: 400
 
 
 # Optional external URL for project (replaces project detail page).

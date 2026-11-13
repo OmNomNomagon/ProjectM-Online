@@ -5,7 +5,8 @@ description: Reduplicator i3 MK3x 3d Printer. Initial Z tower instuctions by Mar
 author: Mark Riganti	 
 tags:
 - 3d
-date: "2020-02-19T00:30:00Z"
+date: "2020-04-15T00:00:00Z"
+weight: 1800
 
 
 # Optional external URL for project (replaces project detail page).

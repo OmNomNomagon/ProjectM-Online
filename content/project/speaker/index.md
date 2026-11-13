@@ -5,7 +5,8 @@ description: Angled Speaker floor stands made from reclaimed red gum by mark rig
 author: Mark Riganti 
 tags:
 - audio
-date: "2020-02-19T00:38:00Z"
+date: "2020-06-17T00:00:00Z"
+weight: 1350
 
 
 # Optional external URL for project (replaces project detail page).

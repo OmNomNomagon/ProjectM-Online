@@ -5,7 +5,8 @@ description: Custom headphone quad braided cables made from modami star quad and
 author: Mark Riganti  
 tags:
 - audio
-date: "2020-02-19T00:39:00Z"
+date: "2020-06-24T00:00:00Z"
+weight: 1300
 
 
 # Optional external URL for project (replaces project detail page).

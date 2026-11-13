@@ -6,7 +6,8 @@ author: Mark Riganti
 tags:
 - audio
 - 3d
-date: "2020-02-19T00:35:00Z"
+date: "2020-05-27T00:00:00Z"
+weight: 1500
 
 
 # Optional external URL for project (replaces project detail page).

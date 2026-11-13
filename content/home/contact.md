@@ -6,6 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 130  # Order that this section will appear.
 
 title = "Contact"
+title_chevrons = true  # Bracket the heading as << Contact >> (same style as My Projects).
 subtitle = "For more info or requests"
 
 # Automatically link email and phone?

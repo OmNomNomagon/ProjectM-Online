@@ -5,7 +5,8 @@ description: Modern handmade Tv entertainment unit build from reclaimed red gum 
 author: Mark Riganti	 
 tags:
 - 3d
-date: "2020-02-19T00:31:00Z"
+date: "2020-04-22T00:00:00Z"
+weight: 1750
 
 
 # Optional external URL for project (replaces project detail page).

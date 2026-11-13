@@ -5,7 +5,8 @@ description: Low Poly 3d printed stylish stealth hook by Mark Riganti
 author: Mark Riganti   
 tags:
 - 3d
-date: "2020-02-19T00:34:00Z"
+date: "2020-05-13T00:00:00Z"
+weight: 1600
 
 
 # Optional external URL for project (replaces project detail page).

@@ -5,7 +5,8 @@ description: Bench top Chopping board made from Red Ironbark scraps by Mark Riga
 author: Mark Riganti 
 tags:
 - wood
-date: "2020-02-19T00:52:00Z"
+date: "2020-09-30T00:00:00Z"
+weight: 600
 
 
 # Optional external URL for project (replaces project detail page).

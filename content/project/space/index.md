@@ -5,7 +5,8 @@ description: Shadow Space game based on C# and Unity By Mark Riganti
 author: Mark Riganti 
 tags:
 - dev
-date: "2020-02-19T00:22:00Z"
+date: "2020-02-19T00:00:00Z"
+weight: 2200
 
 
 # Optional external URL for project (replaces project detail page).

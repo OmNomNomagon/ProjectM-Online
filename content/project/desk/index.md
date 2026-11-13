@@ -5,7 +5,8 @@ description: Denon D2000 D5000 D7000 Fostex TH900 TH600 3d printed baffle headba
 author: Mark Riganti 
 tags:
 - wood
-date: "2020-02-19T00:51:00Z"
+date: "2020-09-23T00:00:00Z"
+weight: 650
 
 
 # Optional external URL for project (replaces project detail page).

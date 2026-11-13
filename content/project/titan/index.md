@@ -5,7 +5,8 @@ description: E3D Titan Aero hotend Upgrade for Reduplicator MK3x by Mark Riganti
 author: Mark Riganti	 
 tags:
 - 3d
-date: "2020-02-19T00:32:00Z"
+date: "2020-04-29T00:00:00Z"
+weight: 1700
 
 
 # Optional external URL for project (replaces project detail page).

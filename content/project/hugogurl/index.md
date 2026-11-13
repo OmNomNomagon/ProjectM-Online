@@ -5,7 +5,8 @@ description: Hugo-Gurl. Gui tool to aid in building and generating hugo static w
 author: Mark Riganti 
 tags:
 - dev
-date: "2020-02-19T00:23:00Z"
+date: "2020-02-26T00:00:00Z"
+weight: 2150
 
 
 # Optional external URL for project (replaces project detail page).

@@ -5,7 +5,8 @@ description: Low Poly 3D printed planter pot for succulents CAD designed by Mark
 author: Mark Riganti
 tags:
 - 3d
-date: "2020-02-19T00:57:00Z"
+date: "2020-11-11T00:00:00Z"
+weight: 300
 
 
 # Optional external URL for project (replaces project detail page).
