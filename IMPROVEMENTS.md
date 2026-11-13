@@ -726,3 +726,16 @@ Check afterwards: `curl -sI https://riganti.com.au/<a _hu_ image>` should show
   placeholders); Previous/Next neighbours unchanged.
 - Noted, not changed: `/privacy/` 404s because `content/privacy.md` is an empty draft
   from the theme template; the footer only links it once published.
+
+## PageSpeed history (mobile, Lighthouse 13.6.0)
+
+| Deploy | Perf | LCP | FCP | TBT | Payload | SEO | A11y | BP |
+|---|---|---|---|---|---|---|---|---|
+| Baseline, 13 Nov | 61 | 14.6 s | 2.1 s | 300 ms | 5,800 KiB | – | – | – |
+| 8458bfd hero rebuild | 72 | 6.1 s | 2.1 s | 50 ms | 2,912 KiB | – | – | – |
+| 156081c stylesheets, thumbnails, SEO | 79 | 4.9 s | 1.3 s | 50 ms | 2,059 KiB | 92 | 85 | 100 |
+| 566e5d9 a11y, inline home CSS, FA self-host, logo, no GA | **83** | **4.3 s** | 1.3 s | **0 ms** | **1,671 KiB** | **100** | **96** | 100 |
+
+Still flagged after 566e5d9: LCP / Speed Index, and colour contrast (white on the
+#59A5F0 buttons ~2.6:1, light-grey text on #f7f7f7). Contrast deliberately left for a
+design decision. Cloudflare cache rules still to be added (see "Cache rules").
