@@ -60,6 +60,20 @@ if ($errors.Count -or $proc.ExitCode -ne 0) {
     exit 1
 }
 
+# Empty image files are never valid. They appear when two Hugo processes (say
+# `hugo server` and this build, which runs with --noBuildLock) convert the same
+# new images at once: one copies a file the other has created but not filled.
+# Browsers that prefer AVIF then pick the empty variant and show a blank card.
+$empty = @(Get-ChildItem $dest -Recurse -File -Include *.avif, *.webp, *.jpg, *.jpeg, *.png -ErrorAction SilentlyContinue |
+    Where-Object Length -eq 0)
+if ($empty.Count) {
+    Write-Host ''
+    Write-Host "BUILD FAILED - $($empty.Count) empty image file(s), e.g.:" -ForegroundColor Red
+    $empty | Select-Object -First 5 | ForEach-Object { Write-Host "  $($_.FullName)" -ForegroundColor Red }
+    Write-Host "Stop any running 'hugo server' and build again." -ForegroundColor Red
+    exit 1
+}
+
 $pages = @(Get-ChildItem $dest -Recurse -Filter *.html -ErrorAction SilentlyContinue).Count
 Write-Host ''
 Write-Host "BUILD OK - $pages HTML pages" -ForegroundColor Green
