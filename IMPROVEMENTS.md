@@ -345,6 +345,22 @@ at 80% on a narrow window. Two consequences worth remembering:
         WebP/AVIF like the hero; the "no explicit width/height" flag is the same cards.
       Next steps, in order of likely LCP gain: drop or defer the non-critical
       stylesheets, then the Cloudflare cache rule, then card thumbnails.
+
+      **Done locally, 14 Nov 2026 (not yet deployed or re-measured):**
+      - [x] **Render-blocking: 7 stylesheets → 1.** Audit of what each was for:
+        | Stylesheet | Purpose | Used? | Now |
+        |---|---|---|---|
+        | academicons | academic profile icons | no | removed |
+        | highlight.js (+JS) | code colouring | no code anywhere | `highlight = false`; pages opt in with `highlight: true` |
+        | fancybox (+JS) | click-to-enlarge lightbox | only `figure`/`gallery` shortcodes, used nowhere | loaded only on pages with those shortcodes |
+        | Google Fonts | Lato, Open Sans, Roboto Mono | Roboto Mono = code only | Roboto Mono dropped; loads non-blocking (`display=swap`) |
+        | Font Awesome 7 | icons | yes | loads non-blocking (`media="print"` → `all`), preconnect |
+        | academia.min.css + academia.css | theme + custom.css | yes | concatenated into one fingerprinted `site.min.css` (177 KiB) |
+      - [x] **Card thumbnails:** `<picture>` AVIF q55 → WebP q72 → JPEG q78 at
+        480/720/1000w, `sizes` matching the 1/2/3-column grid, explicit width/height
+        (fixes the CLS audit), `loading="lazy" decoding="async"`. TV card: 55 KiB JPEG →
+        12.5 KiB AVIF. `height:auto` added in custom.css so the attributes don't distort.
+      - [ ] **Cloudflare cache rules (you, in the dashboard):** see "Cache rules" below.
       **Slider rebuilt 13 Nov 2026 — measured on a fresh local load at phone width:**
       ```
       slider bytes above the fold   2,940 KB  ->  119 KB   (-96%)
@@ -630,3 +646,28 @@ C:\Git\ProjectM-Online\themes\Academia-hugo\   submodule → your theme fork
 ```
 
 Moved out of OneDrive deliberately — OneDrive sync and git working trees conflict.
+
+## Cache rules (Cloudflare)
+
+GitHub Pages sends every file with `Cache-Control: max-age=14400` (4 h). Hugo
+fingerprints its processed files (the hash in the name changes whenever the content
+does), so those are safe to cache for a year; a deploy produces new names rather
+than changing old ones. Plain files under `/img/` (originals) and the giscus theme
+CSS are not fingerprinted, so they get a shorter lifetime.
+
+Cloudflare dashboard → riganti.com.au → **Caching → Cache Rules → Create rule**:
+
+1. **"Fingerprinted assets — 1 year"**
+   - Custom filter expression (Edit expression):
+     `(http.request.uri.path contains "_hu_") or (starts_with(http.request.uri.path, "/css/site.min.")) or (starts_with(http.request.uri.path, "/js/academia.min."))`
+   - Cache eligibility: **Eligible for cache**
+   - Edge TTL: **Ignore cache-control header and use this TTL → 1 month**
+   - Browser TTL: **Override origin → 1 year**
+2. **"Other static images — 1 week"**
+   - Expression: `(starts_with(http.request.uri.path, "/img/")) or (starts_with(http.request.uri.path, "/project/"))`
+     (rule 1 sits above it, so fingerprinted files still get a year)
+   - Eligible for cache; Edge TTL 1 week; Browser TTL override **1 week**
+
+Leave HTML alone (it already passes through uncached), so deploys show instantly.
+Check afterwards: `curl -sI https://riganti.com.au/<a _hu_ image>` should show
+`cache-control: max-age=31536000` and `cf-cache-status: HIT` on the second request.
