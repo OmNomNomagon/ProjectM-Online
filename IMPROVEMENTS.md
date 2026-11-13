@@ -361,6 +361,23 @@ at 80% on a narrow window. Two consequences worth remembering:
         (fixes the CLS audit), `loading="lazy" decoding="async"`. TV card: 55 KiB JPEG →
         12.5 KiB AVIF. `height:auto` added in custom.css so the attributes don't distort.
       - [ ] **Cloudflare cache rules (you, in the dashboard):** see "Cache rules" below.
+
+      **RE-RUN after deploy 156081c (stylesheets, thumbnails, SEO pass), mobile, 14 Nov 2026:**
+      ```
+                                baseline   deploy 1   now
+      Performance                 61         72        79
+      Largest Contentful Paint    14.6 s     6.1 s     4.9 s
+      First Contentful Paint      2.1 s      2.1 s     1.3 s   <- the blocking-CSS fix
+      Speed Index                 6.1 s      5.3 s     4.4 s
+      Total Blocking Time         300 ms     50 ms     50 ms
+      Cumulative Layout Shift     0          0.012     0.012
+      Total payload               5,800 KiB  2,912 KiB 2,059 KiB
+      SEO / Accessibility / Best practices: 92 / 85 / 100
+      ```
+      Still flagged: LCP and Speed Index; low-contrast text; heading levels skip;
+      images without `alt`; links without a discernible name (likely the icon-only
+      links: dark toggle has a label, so the footer/author social icons and the
+      slider arrows are the suspects).
       **Slider rebuilt 13 Nov 2026 — measured on a fresh local load at phone width:**
       ```
       slider bytes above the fold   2,940 KB  ->  119 KB   (-96%)
