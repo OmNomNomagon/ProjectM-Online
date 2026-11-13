@@ -81,7 +81,5 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 	brand_trail = 0
 	# Character the trail is drawn with; matches the separator in maintitle.
 	brand_trail_char = ">"
-	#use replybox for comments. add unique code
-	replybox = "NPOBOrWnVa"
 	#description for google summary
 	sitedescription = "Mark Riganti's Project Website. A Collection of CAD, Coding, Woodwork and Electronics Projects. CODE, CAD, CARVE, CREATE"

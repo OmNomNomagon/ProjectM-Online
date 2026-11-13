@@ -65,7 +65,7 @@ safe to change until the build is modern and previewable.
       - **Strip the dead `UA-158796585-1` tag while you are there.** It is still live
         and still fetching `google-analytics.com` on every single page view, costing a
         DNS lookup and a script download to collect precisely nothing.
-- [ ] **Comments are dead.** ReplyBox site `NPOBOrWnVa` returns 404 from
+- [x] **Comments are dead.** Replaced with giscus, see "Comment system". (Was: ReplyBox site `NPOBOrWnVa` returns 404 from
       `app.getreplybox.com`. The service still exists but is now paid-only.
       **Decided: Giscus** ("sounds good"). GitHub Discussions, free, no infrastructure.
 - [ ] **3 broken project links** in `content/project/*/index.md`:
@@ -316,6 +316,35 @@ at 80% on a narrow window. Two consequences worth remembering:
       Also independently measured by hand: 5.19 MB across 50 assets, which corroborates
       Lighthouse's 5,800 KiB.
       Re-run the same PageSpeed call after the image work to prove the gain.
+
+      **RE-RUN after the first deploy (8458bfd), mobile, Lighthouse 13.6.0, 14 Nov 2026:**
+      ```
+                                baseline    now       change
+      Performance score           61         72        +11
+      Largest Contentful Paint    14.6 s     6.1 s     -8.5 s (2.4x faster)
+      Time to Interactive         15.0 s     6.4 s     -8.6 s
+      Speed Index                  6.1 s     5.3 s     -0.8 s
+      Total Blocking Time          300 ms    50 ms     -250 ms
+      First Contentful Paint       2.1 s     2.1 s      same
+      Cumulative Layout Shift      0         0.012      still "good" (< 0.1)
+      Total payload               5,800 KiB  2,912 KiB  -50%
+      ```
+      The hero image is no longer the problem: it is a 120 KiB AVIF, down from 756 KB.
+      LCP is still "poor" (> 4 s) because of what happens *around* the image:
+      - LCP phases: first byte 173 ms, load delay 857 ms, image download 1,434 ms,
+        then ~3.6 s of **render delay**: the image has arrived but can't paint yet.
+      - **Render-blocking CSS** (est. 1.2 s): seven stylesheets load before anything
+        paints: the theme's two, Font Awesome, highlight.js, fancybox, academicons,
+        Google Fonts. Most aren't needed for the first screen (highlight.js and fancybox
+        only matter on build pages; academicons not at all).
+      - **Cache lifetimes** (est. 1,645 KiB on repeat visits): GitHub Pages serves
+        everything with a 4-hour cache (`max-age=14400`), even fingerprinted files that
+        never change. A Cloudflare cache rule can raise that for `/img/`, `/css/`, `/js/`.
+      - Heaviest single file is now Google's gtag.js (159 KiB), above the hero image.
+      - Image delivery (est. 432 KiB): the project card thumbnails are JPEG and could be
+        WebP/AVIF like the hero; the "no explicit width/height" flag is the same cards.
+      Next steps, in order of likely LCP gain: drop or defer the non-critical
+      stylesheets, then the Cloudflare cache rule, then card thumbnails.
       **Slider rebuilt 13 Nov 2026 — measured on a fresh local load at phone width:**
       ```
       slider bytes above the fold   2,940 KB  ->  119 KB   (-96%)
@@ -463,6 +492,53 @@ Hugo's default order is **weight → date (desc) → title**, and since no proje
    they wrap on phones.
    Superseded along the way: a three-button row, then a cycling button in the filter row.
 
+## Upstream theme review (2026-11-13)
+
+Compared our fork with the 87 commits on themefisher/Academia-hugo since the Feb 2020
+fork point (`upstream` remote added locally). Most are README/demo/hosting; the Hugo
+deprecation fixes were already covered by our 0.169 upgrade. Brought across:
+
+- [x] **Footer alignment** (4824e35), applied by hand since our footer has a privacy
+  link: `row align-items-center`, `mb-4 mb-md-0` on the left column, `mb-0` on the text
+  and icon list. Text and icons now centre to 0px.
+- [x] **`expand` shortcode** (72261f0), rebuilt on native `<details>/<summary>`: works
+  without JS and with keyboard/screen readers, and renders the inner Markdown
+  (upstream's `safeHTML` printed it raw). Usage: `{{< expand "Title" >}} … {{< /expand >}}`.
+  Chevron marker that rotates on open; dark-mode colours included.
+- [x] **Font Awesome 5.6.0 → 7.0.1** (0b29cde) in the theme's `data/assets.toml`; SRI
+  verified against the CDN file. All 24 icons the site uses checked present in v7.
+- [x] **Dark-mode styles** (869a058) applied to `_dark.scss` / `_nav.scss`.
+- Skipped: MS Clarity (tracking; Cloudflare Web Analytics planned), "dropdown menu"
+  (only a quoting change), docs/author/publication fixes (unused pages).
+
+## Dark mode (system-aware)
+
+- [x] `day_night = true`: moon/sun toggle in the navbar.
+- No saved choice → follows the OS `prefers-color-scheme`, live (switches without a
+  reload when the OS does, e.g. sunset). The toggle saves an override in
+  `localStorage.dark_mode` ('1'/'0'); toggling back to what the OS says clears it, so
+  the site returns to following the OS.
+- Inline script right after `<body>` (baseof.html) applies the mode before first paint:
+  no white flash. Also sets `color-scheme` so scrollbars and form controls match.
+- Toggle is `role="button"` with `aria-pressed` and a "Switch to dark/light mode" label.
+- Fixed a theme bug this exposed: the navbar smooth-scroll handler threw on `href="#"`
+  (`$('[name=]')`), which silently cancelled the toggle's own click handler.
+- Our elements in dark: headings `#e9ecef` (13:1), quote `#a9adb5` (6.9:1), card titles
+  `#f1f3f5` (10.3:1) and text `#b8bcc4` (6:1), sort dropdown `#2d303c` with `#4a4f60`
+  border, Send button outlined `#59A5F0`. Heading chevrons swap emphasis in dark: inner
+  `#59A5F0` (5.9:1), outer `#1065B8`, since the dark blue almost vanishes up close.
+
+## Section scroll landing
+
+- [x] Nav links, the Explore button and `/#section` URLs used to stop at the section's
+  top edge, leaving its 110px top padding as an empty band under the navbar. Now, when
+  the target has a `.section-heading h1`, the scroll stops with that heading
+  `SECTION_HEADING_GAP` = 46px below the navbar (`anchorScrollTop()` in academia.js,
+  used by both the click handler and `scrollToAnchor`). Measured at 1766px: heading
+  46px under the navbar, filters at 272px (was 110px / 336px). Other anchors
+  (footnotes, docs headings) keep the old behaviour. Contact sits at the page bottom,
+  so it stops where the page ends. Navbar highlight verified correct for each.
+
 ## Comment system
 
 ReplyBox is alive but your site key is gone and it is now paid-only. Options:
@@ -475,6 +551,66 @@ ReplyBox is alive but your site key is gone and it is now paid-only. Options:
 | Isso | Hosting cost | Self-hosted | Anonymous OK | Same. |
 | ReplyBox | Paid | Hosted | Google | Revive the old account. |
 | ~~Cusdis~~ | — | — | — | **Repo archived July 2026 — do not use.** |
+
+**Status (2026-11-13): working locally.** Discussions enabled on
+OmNomNomagon.github.io, "Comments" category (Announcement format) created, giscus app
+installed. `repo_id = MDEwOlJlcG9zaXRvcnkyMDU2MTM5OTc=`,
+`category_id = DIC_kwDODEFrrc4DLCyO` (read from giscus.app's categories API). On
+`/build/tv/` the iframe loads for term `build/tv/`, sizes itself, and giscus's API
+answers "Discussion not found" for it, which is the normal empty state: the thread
+is created on the first comment. Not yet deployed.
+
+- [x] `partials/comments_giscus.html` replaces the two `<div id="replybox">` hooks
+  (project pages via `widget_page/single.html`, docs via `docs_layout.html`). ReplyBox
+  script removed from `baseof.html`, `replybox` key removed from config.toml.
+- [x] Config under `[giscus]` in params.toml: repo `OmNomNomagon/OmNomNomagon.github.io`
+  (the Pages repo, which has to stay public anyway), category "Comments", mapping by URL
+  path (strict), reactions on, comment box above the thread, lazy-loaded. Nothing
+  renders until `repo_id` and `category_id` are filled in. `comments: false` in a page's
+  front matter hides it on that page.
+- [x] Follows day/night: starts in `light` or `dark_dimmed` to match the page, and the
+  toggle re-themes the iframe live via giscus's `setConfig` message.
+- [x] Tested with placeholder IDs: box renders on `/build/tv/`, iframe gets the right
+  repo, mapping and theme in both modes, no console errors; then reverted to empty.
+- [x] Done by you: (1) repo Settings → Features → tick Discussions; (2) create a
+  Discussions category "Comments" of type **Announcement** (only you and giscus can
+  open threads); (3) install https://github.com/apps/giscus on that repo only;
+  (4) then I read `repo_id` / `category_id` from giscus.app and fill them in.
+
+**Styling (matched to the site, approved 2026-11-14):** custom giscus themes in
+`assets/css/giscus-light.css` and `giscus-dark.css` (`theme_light` / `theme_dark` =
+`"css/giscus-*.css"` in `[giscus]`). Each is self-contained: giscus's own light /
+dark_dimmed base theme copied in, then overrides: transparent canvas, site text greys
+and borders, links `#1065B8` light / `#59A5F0` dark, Comment button `#59A5F0` →
+`#1065B8`, Open Sans, square corners (avatars round); comment cards and the comment
+box styled like the project cards (1px `rgba(0,0,0,.125)` border, `0 2.5px 5px
+rgba(0,0,0,.075)` shadow, white / `#343a40` background), replacing giscus's blue
+"info" outline; selected Oldest/Newest filled `#59A5F0` with white text; 1px side
+padding so the half-pixel frame position can't clip right borders. Page-level
+reactions block off (`reactions = false`).
+
+How the theme reaches giscus (it loads it from inside its own iframe, so the
+site's CSS can't reach in):
+- **Live:** `resources.Get` publishes the file, giscus gets
+  `https://riganti.com.au/css/giscus-*.css` (host sends `access-control-allow-origin: *`).
+- **Local preview:** the partial passes the file's contents as a `data:text/css;base64`
+  URL. A localhost URL cannot work: Chrome/Edge block a public site's frame
+  (giscus.app) from fetching localhost (local-network access), so the box rendered
+  bare. Going through `assets/` + `resources.Get` makes Hugo track the file, so edits
+  show on refresh (when it was read with `readFile` from `static/`, Hugo never
+  rebuilt the pages and kept serving a stale copy).
+- Debugging lesson: my browser tools can't see inside the iframe; only the visible
+  page could confirm the look. `/build/tv/` vs `/build/es10/` differed only because
+  es10 has a thread (comment list) and tv didn't.
+
+## Project page pager
+
+- [x] Previous on the left, Next on the right, on one line (`section_pager.html` +
+  `.post-nav` flex in custom.css). Each side max half width, so long titles wrap in
+  their own column (checked at 375px, no sideways scroll); Next stays right-aligned
+  when there is no Previous. The docs section's reversed labels are preserved by
+  deciding left/right first: links and labels unchanged from before (checked on
+  `/build/desk/`, `/build/tv/`, `/docs/mk3x/page3/`). Now a `<nav aria-label>`.
 
 **Recommendation: Giscus.** Free, no infrastructure, and your audience is makers and
 3D-printing people who overwhelmingly already have GitHub accounts. The swap is small:

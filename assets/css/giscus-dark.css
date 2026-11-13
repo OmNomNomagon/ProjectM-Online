@@ -1,0 +1,106 @@
+/* giscus theme matched to riganti.com.au, dark mode. See giscus-light.css.
+   Dark site palette: page #282a36, cards #343a40, panels #2d303c, borders
+   #4a4f60, text #e9ecef / #a9adb5, accent #59A5F0 / #1065B8. */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+/* ---- giscus base theme (dark_dimmed), copied in so this file is self-contained ---- */
+/*! MIT License
+ * Copyright (c) 2018 GitHub Inc.
+ * https://github.com/primer/primitives/blob/main/LICENSE
+ */main{--color-prettylights-syntax-comment:#768390;--color-prettylights-syntax-constant:#6cb6ff;--color-prettylights-syntax-entity:#dcbdfb;--color-prettylights-syntax-storage-modifier-import:#adbac7;--color-prettylights-syntax-entity-tag:#8ddb8c;--color-prettylights-syntax-keyword:#f47067;--color-prettylights-syntax-string:#96d0ff;--color-prettylights-syntax-variable:#f69d50;--color-prettylights-syntax-brackethighlighter-unmatched:#e5534b;--color-prettylights-syntax-invalid-illegal-text:#cdd9e5;--color-prettylights-syntax-invalid-illegal-bg:#922323;--color-prettylights-syntax-carriage-return-text:#cdd9e5;--color-prettylights-syntax-carriage-return-bg:#ad2e2c;--color-prettylights-syntax-string-regexp:#8ddb8c;--color-prettylights-syntax-markup-list:#eac55f;--color-prettylights-syntax-markup-heading:#316dca;--color-prettylights-syntax-markup-italic:#adbac7;--color-prettylights-syntax-markup-bold:#adbac7;--color-prettylights-syntax-markup-deleted-text:#ffd8d3;--color-prettylights-syntax-markup-deleted-bg:#78191b;--color-prettylights-syntax-markup-inserted-text:#b4f1b4;--color-prettylights-syntax-markup-inserted-bg:#1b4721;--color-prettylights-syntax-markup-changed-text:#ffddb0;--color-prettylights-syntax-markup-changed-bg:#682d0f;--color-prettylights-syntax-markup-ignored-text:#adbac7;--color-prettylights-syntax-markup-ignored-bg:#255ab2;--color-prettylights-syntax-meta-diff-range:#dcbdfb;--color-prettylights-syntax-brackethighlighter-angle:#768390;--color-prettylights-syntax-sublimelinter-gutter-mark:#545d68;--color-prettylights-syntax-constant-other-reference-link:#96d0ff;--color-btn-text:#adbac7;--color-btn-bg:#373e47;--color-btn-border:#cdd9e51a;--color-btn-shadow:0 0 #0000;--color-btn-inset-shadow:0 0 #0000;--color-btn-hover-bg:#444c56;--color-btn-hover-border:#768390;--color-btn-active-bg:#3d444d;--color-btn-active-border:#636e7b;--color-btn-selected-bg:#2d333b;--color-btn-primary-text:#fff;--color-btn-primary-bg:#347d39;--color-btn-primary-border:#cdd9e51a;--color-btn-primary-shadow:0 0 #0000;--color-btn-primary-inset-shadow:0 0 #0000;--color-btn-primary-hover-bg:#46954a;--color-btn-primary-hover-border:#cdd9e51a;--color-btn-primary-selected-bg:#347d39;--color-btn-primary-selected-shadow:0 0 #0000;--color-btn-primary-disabled-text:#cdd9e580;--color-btn-primary-disabled-bg:#347d3999;--color-btn-primary-disabled-border:#cdd9e51a;--color-action-list-item-default-hover-bg:#909dab1f;--color-segmented-control-bg:#636e7b1a;--color-segmented-control-button-bg:#22272e;--color-segmented-control-button-selected-border:#636e7b;--color-fg-default:#adbac7;--color-fg-muted:#768390;--color-fg-subtle:#636e7b;--color-canvas-default:#22272e;--color-canvas-overlay:#2d333b;--color-canvas-inset:#1c2128;--color-canvas-subtle:#2d333b;--color-border-default:#444c56;--color-border-muted:#373e47;--color-neutral-muted:#636e7b66;--color-accent-fg:#539bf5;--color-accent-emphasis:#316dca;--color-accent-muted:#4184e466;--color-accent-subtle:#4184e41a;--color-success-fg:#57ab5a;--color-attention-fg:#c69026;--color-attention-muted:#ae7c1466;--color-attention-subtle:#ae7c1426;--color-danger-fg:#e5534b;--color-danger-muted:#e5534b66;--color-danger-subtle:#e5534b1a;--color-primer-shadow-inset:0 0 #0000;--color-scale-gray-7:#373e47;--color-scale-blue-8:#143d79;
+
+  /*! Extensions from @primer/css/alerts/flash.scss */--color-social-reaction-bg-hover:var(--color-scale-gray-7);--color-social-reaction-bg-reacted-hover:var(--color-scale-blue-8)}main .pagination-loader-container{background-image:url(https://github.com/images/modules/pulls/progressive-disclosure-line-dark.svg)}main .gsc-loading-image{background-image:url(https://github.githubassets.com/images/mona-loading-dimmed.gif)}
+
+/* ---- site overrides (same selector, later wins) ---- */
+
+main {
+  --color-canvas-default: transparent;
+  --color-canvas-overlay: #2d303c;
+  --color-canvas-subtle: #343a40;
+  --color-canvas-inset: #2d303c;
+
+  --color-fg-default: #e9ecef;
+  --color-fg-muted: #a9adb5;
+  --color-fg-subtle: #8a8f99;
+
+  --color-border-default: #4a4f60;
+  --color-border-muted: #3a3e4c;
+
+  /* Links in the light blue: the dark blue is too dim on a dark page. */
+  --color-accent-fg: #59A5F0;
+  --color-accent-emphasis: #59A5F0;
+  --color-accent-muted: #59a5f066;
+  --color-accent-subtle: #59a5f01f;
+
+  --color-btn-primary-text: #fff;
+  --color-btn-primary-bg: #59A5F0;
+  --color-btn-primary-border: #59A5F0;
+  --color-btn-primary-hover-bg: #1065B8;
+  --color-btn-primary-hover-border: #1065B8;
+  --color-btn-primary-selected-bg: #1065B8;
+  --color-btn-primary-shadow: none;
+  --color-btn-primary-inset-shadow: none;
+  --color-btn-primary-selected-shadow: none;
+  --color-btn-primary-disabled-text: #ffffffb3;
+  --color-btn-primary-disabled-bg: #59a5f066;
+  --color-btn-primary-disabled-border: transparent;
+
+  --color-btn-text: #e9ecef;
+  --color-btn-bg: #2d303c;
+  --color-btn-border: #4a4f60;
+  --color-btn-hover-bg: #343a40;
+  --color-btn-hover-border: #59A5F0;
+  --color-btn-shadow: none;
+  --color-btn-inset-shadow: none;
+  --color-segmented-control-bg: #2d303c;
+  --color-segmented-control-button-bg: #343a40;
+  --color-segmented-control-button-selected-border: #59A5F0;
+
+  --color-social-reaction-bg-hover: #343a40;
+  --color-social-reaction-bg-reacted-hover: #1065b866;
+  --color-primer-shadow-inset: none;
+
+  font-family: "Open Sans", -apple-system, "Segoe UI", sans-serif;
+}
+
+main *:not(img) {
+  border-radius: 0 !important;
+}
+
+/* The comment frame often lands on a half-pixel (the article is centred), and
+   the browser snapping it to whole pixels clipped the last column: the right
+   border of every comment box. 1px of side padding keeps borders off that edge. */
+main {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+/* Comment cards and the comment box styled like the site's project cards:
+   hairline grey border, soft drop shadow, square corners, card background.
+   Replaces giscus's blue "info" outline on comments. */
+.gsc-comment > div,
+.gsc-comment-box:not(.gsc-comment-box-is-reply) {
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+  box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.075) !important;
+  background-color: #343a40;
+}
+.color-box-border-info {
+  border-color: rgba(0, 0, 0, 0.125) !important;
+}
+/* Room for the drop shadow at the bottom of the last card. */
+.gsc-timeline {
+  padding-bottom: 6px;
+}
+
+/* Oldest / Newest: the selected option filled in the site blue, like the
+   active filter button. */
+.BtnGroup-item.BtnGroup-item--selected {
+  background-color: #59A5F0;
+  border-color: #59A5F0;
+}
+.BtnGroup-item.BtnGroup-item--selected .btn {
+  color: #fff;
+}
+.BtnGroup-item.BtnGroup-item--selected .btn:hover {
+  background-color: #1065B8;
+}

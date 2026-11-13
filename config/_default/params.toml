@@ -5,7 +5,7 @@
 #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `strawberry`. (working: Apogee, default)
 color_theme = 'default'
 # Enable users to switch between day and night mode?
-day_night = false
+day_night = true
 
 # Font style.
 #   Choose from `default`, `classic`, or `playfair`.
@@ -156,3 +156,21 @@ sharing = false
     api_key = ""
     index_name = ""
     show_logo = false
+
+# Comments: giscus (https://giscus.app). Each page's thread is a GitHub Discussion
+# on the repo below, matched by URL path. Nothing renders until repo_id and
+# category_id are set. Get both from giscus.app after enabling Discussions on the
+# repo and installing the giscus GitHub app on it.
+#
+# Custom themes live in assets/css/giscus-*.css (see the partial
+# comments_giscus.html for how they reach giscus).
+[giscus]
+  repo = "OmNomNomagon/OmNomNomagon.github.io"
+  repo_id = "MDEwOlJlcG9zaXRvcnkyMDU2MTM5OTc="
+  category = "Comments"
+  category_id = "DIC_kwDODEFrrc4DLCyO"
+  # Theme files under assets/. Published to /css/ on the live site; inlined in
+  # local preview. Edits show on refresh.
+  theme_light = "css/giscus-light.css"
+  theme_dark = "css/giscus-dark.css"
+  reactions = false  # page-level reactions block above the thread
