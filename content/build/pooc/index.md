@@ -1,7 +1,7 @@
 ---
 title: Media Server Website
 summary: web service consolidation website
-description: Media server service consolidation website by Mark Riganti
+description: "A home media server dashboard: Organizr behind an Nginx reverse proxy with Let's Encrypt SSL, bringing the server's web services into one site."
 author: Mark Riganti
 tags:
 - dev

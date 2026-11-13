@@ -676,7 +676,9 @@ Cloudflare dashboard → riganti.com.au → **Caching → Cache Rules → Create
 
 1. **"Fingerprinted assets — 1 year"**
    - Custom filter expression (Edit expression):
-     `(http.request.uri.path contains "_hu_") or (starts_with(http.request.uri.path, "/css/site.min.")) or (starts_with(http.request.uri.path, "/js/academia.min."))`
+     `(http.request.uri.path contains "_hu_") or (starts_with(http.request.uri.path, "/css/site.min.")) or (starts_with(http.request.uri.path, "/css/fontawesome-")) or (starts_with(http.request.uri.path, "/js/academia.min.")) or (starts_with(http.request.uri.path, "/fonts/fontawesome-"))`
+     (Font Awesome added 2026-11-14 after self-hosting: its CSS is fingerprinted and
+     its fonts live in a versioned folder, so both are safe for a year.)
    - Cache eligibility: **Eligible for cache**
    - Edge TTL: **Ignore cache-control header and use this TTL → 1 month**
    - Browser TTL: **Override origin → 1 year**
@@ -739,3 +741,17 @@ Check afterwards: `curl -sI https://riganti.com.au/<a _hu_ image>` should show
 Still flagged after 566e5d9: LCP / Speed Index, and colour contrast (white on the
 #59A5F0 buttons ~2.6:1, light-grey text on #f7f7f7). Contrast deliberately left for a
 design decision. Cloudflare cache rules still to be added (see "Cache rules").
+
+## Descriptions and image alt text (2026-11-14)
+
+- [x] New meta descriptions for all 37 write-ups, the docs index and the 14 MK3x guide
+  pages (79–155 chars; what it is, materials, what the page offers; no trailing
+  "by Mark Riganti" since the name is in every title). Only `description:` lines changed.
+- [x] Alt text everywhere (was 46/47 empty on the homepage, 64 empty + 47 "table" in
+  write-ups): cards = project title; homepage hero = written descriptions (`alt` per
+  slide in content/home/slider.md); write-up sliders = "<title> – photo N"; Markdown
+  photos via `layouts/_default/_markup/render-image.html` = "<title> – build photo N"
+  (real alt text in the Markdown always wins), now `loading="lazy"`.
+- [x] Share images verified: all 41 projects use their own card photo.
+- [ ] Open: speaker stands page title says "Red Ironbark", its text says red gum.
+- [ ] Later: hand-written alt text for the best photos.

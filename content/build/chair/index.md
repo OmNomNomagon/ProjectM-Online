@@ -1,7 +1,7 @@
 ---
 title: Ironbark outdoor Chairs
 summary: Improved ikea Tarno chairs
-description: Ikea Tarno chairs replace with finished Red Ironbark by Mark Riganti
+description: "Upcycling IKEA Tärnö outdoor chairs: the flimsy acacia slats swapped for red ironbark, sanded, rounded and finished in Danish oil. Step-by-step build."
 author: Mark Riganti
 tags:
 - wood

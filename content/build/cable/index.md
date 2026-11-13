@@ -1,7 +1,7 @@
 ---
 title: Quad Braided Headphone Cables
 summary: Mogami and paracord
-description: Custom headphone quad braided cables made from modami star quad and coloured paracord by Mark Riganti.
+description: "Custom quad-braided headphone cables made from Mogami star quad wire, sleeved in coloured paracord and finished with Neutrik connectors."
 author: Mark Riganti
 tags:
 - audio

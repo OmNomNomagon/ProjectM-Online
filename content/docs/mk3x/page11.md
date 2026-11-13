@@ -1,7 +1,7 @@
 ---
 title: 4.3 Y Axis
 linktitle: 4.3 Y Axis
-description: Reduplicator i3 MK3x 3d Printer. Y axis instructions  by Mark Riganti
+description: "ReDuplicator MK3x step 4.3: the Y axis, with lighter Y carriage bearing blocks to reduce the axis's moving weight."
 author: Mark Riganti
 toc: true
 type: docs

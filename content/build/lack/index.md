@@ -1,7 +1,7 @@
 ---
 title: Wanhao Lack Triple Stack 3D Printer Enclosure
 summary: 3d Printer enclosure
-description: Wanhao Lack Triple Stack 3D Printer Enclosure by Mark Riganti
+description: "An IKEA Lack triple-stack enclosure for the Wanhao i3, Maker Select and Cocoon Create 3D printers, with a removable top and printable upgrade parts."
 author: Mark Riganti
 tags:
 - 3d

@@ -1,7 +1,7 @@
 ---
 title: Low Poly Hook
 summary: stylish stealthy wall hook
-description: Low Poly 3d printed stylish stealth hook by Mark Riganti
+description: "A low poly 3D printed wall hook with a steep angle for holding bigger items. Mounts with 3M double-sided tape. Free to download on Thingiverse."
 author: Mark Riganti
 tags:
 - 3d

@@ -1,7 +1,7 @@
 ---
 title: 3.3 Hotend Upgrade E3D Hemera
 linktitle: 3.3 Hotend Upgrade Hemera
-description: Reduplicator i3 MK3x 3d Printer. E3D Hemera Hotend upgrade instructions by Mark Riganti
+description: "ReDuplicator MK3x step 3.3: an E3D Hemera mount with three-screw hot swap, a BLTouch mount, the MK3S R4 cooling duct and cable channels."
 author: Mark Riganti
 toc: true
 type: docs

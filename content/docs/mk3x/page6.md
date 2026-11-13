@@ -1,7 +1,7 @@
 ---
 title: 3.2 Hotend Upgrade E3d Titan Aero
 linktitle: 3.2 Hotend Upgrade Titan Aero
-description: Reduplicator i3 MK3x 3d Printer. E3D Titan Aero hotend upgrade instructions by Mark Riganti
+description: "ReDuplicator MK3x step 3.2: a compact E3D Titan Aero mount that keeps the hotend close to the X rods to save height and width."
 author: Mark Riganti
 toc: true
 type: docs

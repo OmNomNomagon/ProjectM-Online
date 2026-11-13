@@ -1,7 +1,7 @@
 ---
 title: riganti.com.au
 summary: personal website powered by hugo
-description: riganti.com.au Mark Riganti's Personal Project Website by Mark Riganti
+description: "How riganti.com.au is built: a Hugo static site on a heavily customised Academic theme, hosted on GitHub Pages behind Cloudflare."
 author: Mark Riganti
 tags:
 - dev

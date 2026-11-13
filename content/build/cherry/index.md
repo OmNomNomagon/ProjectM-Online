@@ -1,7 +1,7 @@
 ---
 title: Cherry Popper tool
 summary: Cherry MX keyboard switch opening tool.
-description: Cherry Popper Cherry MX keyboard switch opening tool by Mark Riganti
+description: "A 3D printed Cherry MX switch opener that speeds up mechanical keyboard modding, from lubing switches to swapping springs. Free to download and print."
 author: Mark Riganti
 tags:
 - 3d

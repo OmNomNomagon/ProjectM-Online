@@ -1,7 +1,7 @@
 ---
 title: 4.4 Cabling
 linktitle: 4.4 Cabling
-description: Reduplicator i3 MK3x 3d Printer. Cablegami instructions by Mark Riganti
+description: "ReDuplicator MK3x step 4.4: routing and securing the printer's main cable between the rear legs."
 author: Mark Riganti
 toc: true
 type: docs

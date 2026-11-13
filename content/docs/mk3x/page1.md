@@ -1,7 +1,7 @@
 ---
 title:  1.1 Bill Of Materials
 linktitle: 1.1 Bill Of Materials
-description: Reduplicator MK3x 3d Printer Bill of materials by Mark Riganti
+description: "Bill of materials for the ReDuplicator MK3x Wanhao i3 conversion: the extrusions, fasteners and printed parts, on a budget of roughly US$100 to 150."
 author: Mark Riganti
 toc: true
 type: docs

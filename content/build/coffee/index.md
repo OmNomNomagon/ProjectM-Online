@@ -1,7 +1,7 @@
 ---
 title: Modern Red Gum Coffee Table
 summary: Made from reclaimed Red gum
-description: modern red gum reclaimed wood coffee table by Mark Riganti
+description: "A modern coffee table made from a reclaimed red gum shop table and merbau, finished in Danish oil. Full build from teardown to finish."
 author: Mark Riganti
 tags:
 - wood

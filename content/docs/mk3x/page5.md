@@ -1,7 +1,7 @@
 ---
 title: 3.1 Hotend MK10 Original
 linktitle: 3.1 Hotend MK10 Original
-description: Reduplicator i3 MK3x 3d Printer. MK10 Original hotend instructions by Mark Riganti
+description: "ReDuplicator MK3x step 3.1: fitting the original MK10 hotend on a Prusa MK2s-compatible X carriage."
 author: Mark Riganti
 toc: true
 type: docs

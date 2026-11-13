@@ -1,7 +1,7 @@
 ---
 title:  1.2 Printing Parts & Pre Assembly
 linktitle: 1.2 Printing Parts & Pre Assembly
-description: Reduplicator i3 MK3x 3d Printer. Printing and pre assembly  by Mark Riganti
+description: "Printing the ReDuplicator MK3x parts: recommended filament, print settings and the pre-assembly steps to do before the frame build."
 author: Mark Riganti
 toc: true
 type: docs

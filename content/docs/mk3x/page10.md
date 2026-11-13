@@ -1,7 +1,7 @@
 ---
 title: 4.2 Complete The Z Tower
 linktitle: 4.2 Complete The Z Tower
-description: Reduplicator i3 MK3x 3d Printer. Z tower instructions  by Mark Riganti
+description: "ReDuplicator MK3x step 4.2: completing the Z tower frame with the final crossbeam once the X gantry is in place."
 author: Mark Riganti
 toc: true
 type: docs

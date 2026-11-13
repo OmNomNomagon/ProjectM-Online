@@ -1,7 +1,7 @@
 ---
 title: Tasmanian Oak Test Tube Spice Rack
 summary: Tasmanian Oak
-description: Corked Test Tube Spice rack made from Tasmanian oak by Mark Riganti
+description: "A test tube spice rack in Tasmanian oak that holds 18 corked 25×150mm tubes. Cut list, band-saw joints and finishing steps."
 author: Mark Riganti
 tags:
 - wood

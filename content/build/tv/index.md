@@ -1,7 +1,7 @@
 ---
 title: Redgum Entertainment Unit
 summary: TV unit made of reclaimed Redgum
-description: Modern handmade Tv entertainment unit build from reclaimed red gum by Mark Riganti
+description: "A modern TV entertainment unit made from a reclaimed red gum shop table and merbau. Full build: teardown, flattening warped panels, joinery and Danish oil."
 author: Mark Riganti
 tags:
 - wood

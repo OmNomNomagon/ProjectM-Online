@@ -1,7 +1,7 @@
 ---
 title: Acacia Mini Planters
 summary: Herb planter boxes
-description: Acacia wood mini herb planter boxes by Mark Riganti
+description: "Small herb planter boxes made from offcut acacia panels from IKEA Tärnö chairs, braced, screwed and oiled with Danish oil for outdoor use."
 author: Mark Riganti
 tags:
 - wood

@@ -1,7 +1,7 @@
 ---
 title: 4.1 X Axis Gantry
 linktitle: 4.1 X Axis Gantry
-description: Reduplicator i3 MK3x 3d Printer. x axis gantry instructions by Mark Riganti
+description: "ReDuplicator MK3x step 4.1: building the X axis gantry, with 9mm and 11mm idler options for stock or upgraded idlers."
 author: Mark Riganti
 toc: true
 type: docs

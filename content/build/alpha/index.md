@@ -1,7 +1,7 @@
 ---
 title: Open Alpha Headphones with 3.5mm connector
 summary: MrSpeaers open alpha mod
-description: Mr Speakers open alpha headphones mod for 3.5mm connectors by Mark Riganti
+description: "A remix of the 3D printed Open Alpha headphones with bass ports and a strengthened jack that takes standard 2.5mm and 3.5mm cables instead of Hirose."
 author: Mark Riganti
 tags:
 - 3d

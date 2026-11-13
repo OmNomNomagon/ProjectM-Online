@@ -1,7 +1,7 @@
 ---
 title: Self Watering Planter Box
 summary: Self Sustaining
-description: Self watering meranti large planter boxes by Mark Riganti
+description: "A large self-watering planter box built from scrap meranti and finished with linseed oil. Sizing tips and step-by-step build."
 author: Mark Riganti
 tags:
 - wood

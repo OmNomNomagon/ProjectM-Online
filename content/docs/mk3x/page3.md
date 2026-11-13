@@ -1,7 +1,7 @@
 ---
 title: 2.1 Base
 linktitle: 2.1 Base
-description: Reduplicator i3 MK3x 3d Printer. Base extrusion instructions  by Mark Riganti
+description: "ReDuplicator MK3x step 2.1: assembling the 3030 aluminium extrusion base frame for the Wanhao i3 conversion."
 author: Mark Riganti
 toc: true
 type: docs

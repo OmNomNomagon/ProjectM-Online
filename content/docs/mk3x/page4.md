@@ -1,7 +1,7 @@
 ---
 title: 2.2 Begin The ZTower
 linktitle: 2.2 Begin The ZTower
-description: Reduplicator i3 MK3x 3d Printer. Initial Z tower instructions by Mark Riganti
+description: "ReDuplicator MK3x step 2.2: starting the Z tower with the crossbeams, corner brackets and tower bottom brackets."
 author: Mark Riganti
 toc: true
 type: docs

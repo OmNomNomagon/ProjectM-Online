@@ -1,7 +1,7 @@
 ---
 title: Custom Drevo Calibre Keyboard
 summary: Gateron Brown Switches
-description: Drevo Calibur keyboard mods, Gateron brown switches, PBT keycaps by Mark Riganti
+description: "A modded Drevo Calibur keyboard: lubed Gateron Brown switches, silenced stabilisers, PBT keycaps, case dampening and a brushed aluminium plate."
 author: Mark Riganti
 tags:
 - electro

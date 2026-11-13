@@ -1,7 +1,7 @@
 ---
 title: HiFiman He-500 Mods
 summary: Headband, dampening and pads mod
-description: Colleciton of HiFiman he500 mods. including headband, 3.5mm cable grill, pad, fuzzor. by Mark Riganti
+description: "HiFiMAN HE-500 headphone mods: a hybrid headband swap, 3.5mm sockets, new grilles and pads, and the fuzzor mod, for lighter weight and better sound."
 author: Mark Riganti
 tags:
 - audio

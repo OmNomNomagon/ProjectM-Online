@@ -1,7 +1,7 @@
 ---
 title: Earbuddy earphone case
 summary: Earbuddy case for earbuds.
-description: Earbuddy, 3d printed earphone case for iems and earphones by Mark Riganti
+description: "Earbuddy: a 3D printed case for earphones and IEMs that keeps the buds and cable tidy. Three versions, free to download and print."
 author: Mark Riganti
 tags:
 - 3d

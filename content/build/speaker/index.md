@@ -1,7 +1,7 @@
 ---
 title: Red Ironbark Angled Speaker Stands
 summary: Angled Speaker Stand
-description: Angled Speaker floor stands made from reclaimed red gum by Mark Riganti
+description: "Angled floor speaker stands in red gum and merbau, designed to aim the tweeters at ear height from 2m away. Measurements and build steps."
 author: Mark Riganti
 tags:
 - audio

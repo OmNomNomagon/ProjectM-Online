@@ -1,7 +1,7 @@
 ---
 title: Ironbark Side Table Top For Ikea Malm
 summary: Red Ironbark replacement top
-description: Ikea Malm improved table top with Red Ironbark tabletop by Mark Riganti
+description: "A red ironbark replacement top for the IKEA Malm side table, laminated from floorboards with merbau support and finished in Danish oil."
 author: Mark Riganti
 tags:
 - wood

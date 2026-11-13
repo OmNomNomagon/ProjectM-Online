@@ -34,25 +34,30 @@ cta_url = "#projects"
 [[item]]
   overlay_color = "#333"
   overlay_img = "slider/PlantDog.jpg"
+  alt = "A dog lying on a timber floor among potted plants"
   overlay_filter = 0.6
 
 [[item]]
   overlay_color = "#666"
   overlay_img = "slider/mustangB.jpg"
+  alt = "Two P-51 Mustang fighter planes flying above the clouds"
   overlay_filter = 0.6
 
 [[item]]
   overlay_color = "#555"
   overlay_img = "slider/blur-small.jpg"
+  alt = "Rain-speckled windscreen with blurred traffic lights at night"
   overlay_filter = 0.6
 
 [[item]]
   overlay_color = "#333"
   overlay_img = "slider/shuffle-small.jpg"
+  alt = "A puck on a sanded shuffleboard table in a dimly lit bar"
   overlay_filter = 0.6
 
 [[item]]
   overlay_color = "#333"
   overlay_img = "slider/shuttle-small.jpg"
+  alt = "A space shuttle orbiter on display in a museum hangar"
   overlay_filter = 0.6
 +++

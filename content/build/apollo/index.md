@@ -1,7 +1,7 @@
 ---
 title: Lego Saturn V Stand
 summary: Additional stands
-description: Lego Saturn V additional horizontal stands by Mark Riganti.
+description: "Extra 3D printed stands for the LEGO Saturn V, styled like the originals so the rocket sits more securely on display. Free to download on Thingiverse."
 author: Mark Riganti
 tags:
 - 3d

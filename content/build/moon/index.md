@@ -1,7 +1,7 @@
 ---
 title: 3D Moon Lamp
 summary: Meranti stand and lunar lander
-description: 3D lithograph moon lamp and meranti stand with lunar lander by Mark Riganti
+description: "A 3D printed lithophane moon lamp with battery-powered LED lighting, a meranti stand set at a 90° offset and a miniature lunar lander."
 author: Mark Riganti
 tags:
 - 3d

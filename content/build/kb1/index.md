@@ -1,7 +1,7 @@
 ---
 title: Custom K65 RGB Keyboard
 summary: Cherry Brown Mod
-description: Corsair K65 RGB modded with cherry mx brown switches, pbt keycaps by Mark Riganti
+description: "A modded Corsair K65 RGB: Cherry MX Brown switches, silenced stabilisers, PBT keycaps, O-rings and case dampening for a quieter, better-feeling board."
 author: Mark Riganti
 tags:
 - electro

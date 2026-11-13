@@ -1,7 +1,7 @@
 ---
 title: Hugo-Gurl - Hugo GUI tool
 summary: GUI tool to maintain and build hugo websites.
-description: Hugo-Gurl. Gui tool to aid in building and generating hugo static websites by Mark Riganti
+description: "Hugo-Gurl: a C# desktop app for Hugo static websites that creates pages, builds and previews the site locally, and deploys it to GitHub."
 author: Mark Riganti
 tags:
 - dev

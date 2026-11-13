@@ -1,7 +1,7 @@
 ---
 title: 5.1. Recommendations & Future Dev
 linktitle: 5.1. Recommendations & Future Dev
-description: Reduplicator i3 MK3x 3d Printer. Recommendations and future dev  by Mark Riganti
+description: "ReDuplicator MK3x step 5.1: recommended extra mods, such as TMC2100 drivers for quieter printing, and plans for future development."
 author: Mark Riganti
 toc: true
 type: docs
