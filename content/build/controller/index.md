@@ -1,5 +1,9 @@
 ---
 title: Wanhao 24v Gen-L TMC2130 upgrade
+card: true
+card_weight: 1900
+card_title: "Wanhao 24v Gen-L TMC2130"
+aliases: ["/project/controller/"]
 summary: Wanhao i3 controller upgrade
 description: "An adapter and guide for upgrading a Wanhao i3 to an MKS Gen-L board with TMC2130 drivers, 24V power, a MOSFET and a Raspberry Pi mount."
 author: Mark Riganti
@@ -8,7 +12,6 @@ tags:
 - electro
 date: "2020-04-01T00:00:00Z"
 type: "widget_page"
-
 
 ---
 

@@ -1,5 +1,8 @@
 ---
 title: Shadow Space unity game
+card: true
+card_weight: 2200
+aliases: ["/project/space/"]
 summary: In development C# Unity game
 description: "Shadow Space: an early-development space adventure game built in C# with Unity."
 author: Mark Riganti

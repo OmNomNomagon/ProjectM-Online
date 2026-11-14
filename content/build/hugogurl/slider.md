@@ -22,7 +22,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/hugogurl/G1.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "G1.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
 
 
@@ -32,7 +32,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/hugogurl/G2.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "G2.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
  
   
@@ -42,7 +42,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/hugogurl/G3.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "G3.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
  
  
@@ -52,7 +52,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/hugogurl/G4.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "G4.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
  
  
@@ -62,7 +62,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/hugogurl/G5.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "G5.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
  
 

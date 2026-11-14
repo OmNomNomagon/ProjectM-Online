@@ -1,5 +1,8 @@
 ---
 title: Low Poly Planter
+card: true
+card_weight: 300
+aliases: ["/project/poly/", "/details/poly/"]
 summary: A low polygon planter for succulents
 description: "A low poly 3D printed planter for succulents. A remix that flares outward instead of in, so it is easier to plant and handle. Free to download."
 author: Mark Riganti

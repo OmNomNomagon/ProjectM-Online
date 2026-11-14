@@ -1,5 +1,8 @@
 ---
 title: Denon Headband Mod
+card: true
+card_weight: 1050
+aliases: ["/project/denon/"]
 summary: Baffle for Hifiman headband
 description: "A 3D printed headband upgrade for Denon AH-D2000/D5000/D7000 and Fostex TH600/TH900 headphones that replaces the fragile hangers with a HiFiMAN-style band."
 author: Mark Riganti

@@ -1,5 +1,8 @@
 ---
 title: riganti.com.au
+card: true
+card_weight: 2100
+aliases: ["/project/riganti/"]
 summary: personal website powered by hugo
 description: "How riganti.com.au is built: a Hugo static site on a heavily customised Academic theme, hosted on GitHub Pages behind Cloudflare."
 author: Mark Riganti

@@ -1,5 +1,8 @@
 ---
 title: ECC88 Quad Vacuum Tube holder
+card: true
+card_weight: 1750
+aliases: ["/project/vacuum/"]
 summary: "Fits ECC88 6DJ8 6922 6BZ7"
 description: "A 3D printed stand that displays four ECC88, 6DJ8 or 6922 vacuum tubes upright, keeping fragile, top-heavy matched pairs safe and together."
 author: Mark Riganti

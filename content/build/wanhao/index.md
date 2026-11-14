@@ -1,5 +1,9 @@
 ---
 title: Wanhao i3 Straight Braces
+card: true
+card_weight: 1950
+card_title: "Wanhao Straight Braces"
+aliases: ["/project/wanhao/"]
 summary: Increases i3 rigidity
 description: "Straight Z braces for the Wanhao i3, Cocoon Create and Maker Select that add rigidity without losing 20mm of build height. Parts list and assembly guide."
 author: Mark Riganti
@@ -7,7 +11,6 @@ tags:
 - 3d
 date: "2020-03-25T00:00:00Z"
 type: "widget_page"
-
 
 ---
 

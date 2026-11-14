@@ -1,5 +1,9 @@
 ---
 title: Audio Technica ES10 Overear Pads Mod
+card: true
+card_weight: 1500
+card_title: "Audio Technica ES10 Mod"
+aliases: ["/project/es10/"]
 summary: Over ear pad mod
 description: "A 3D printed adapter that fits comfortable over-ear pads to Audio-Technica ES10 headphones, ending sore ears on long listening sessions."
 author: Mark Riganti
@@ -8,7 +12,6 @@ tags:
 - 3d
 date: "2020-05-27T00:00:00Z"
 type: "widget_page"
-
 
 ---
 

@@ -22,7 +22,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/es10/G1.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "G1.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
 
 
@@ -32,7 +32,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/es10/G2.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "G2.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
  
   
@@ -43,7 +43,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/es10/G3.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "G3.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
   
 [[item]]
@@ -52,7 +52,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/es10/G4.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "G4.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
   
  [[item]]
@@ -61,7 +61,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/es10/G5.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "G5.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
   
 [[item]]
@@ -70,7 +70,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/es10/G6.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "G6.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
     
  

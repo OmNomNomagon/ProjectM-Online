@@ -22,7 +22,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/coffee/G1.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "G1.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
 
 
@@ -32,7 +32,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/coffee/G2.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "G2.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
  
   
@@ -43,7 +43,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/coffee/G3.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "G3.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
   
   
@@ -55,7 +55,7 @@ height = "calc(65vh)"
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/coffee/G4.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "G4.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0 # Darken the image. Value in range 0-1.
 
   # Call to action button (optional).
@@ -69,7 +69,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/coffee/G5.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "G5.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
 
 +++

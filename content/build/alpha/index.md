@@ -1,5 +1,9 @@
 ---
 title: Open Alpha Headphones with 3.5mm connector
+card: true
+card_weight: 850
+card_title: "Open Alpha 3.5mm Headphones"
+aliases: ["/project/alpha/"]
 summary: MrSpeaers open alpha mod
 description: "A remix of the 3D printed Open Alpha headphones with bass ports and a strengthened jack that takes standard 2.5mm and 3.5mm cables instead of Hirose."
 author: Mark Riganti
@@ -8,7 +12,6 @@ tags:
 - audio
 date: "2020-08-26T00:00:00Z"
 type: "widget_page"
-
 
 ---
 
@@ -34,36 +37,36 @@ Downloadable on [thingiverse](https://www.thingiverse.com/thing:2326371)
 
 Print The Cups in ABS. 3.5mm connector gets installed
 
-![](/img/project/alpha/I01.jpg) 
+![](I01.jpg) 
 
 Smooth the cups in an acetone bath
 
 
-![](/img/project/alpha/I02.jpg) 
+![](I02.jpg) 
 
 Prime with a filler primer and coat in automotive paint. I used hot rod red from Duplicolor.
 
-![](/img/project/alpha/I03.jpg) 
+![](I03.jpg) 
 
 Add the driver to the baffle, cover the rear of the cup with silverstone dampener. Sandwich wool in between to control treble.
 
-![](/img/project/alpha/I04.jpg)
-![](/img/project/alpha/I08.jpg) 
+![](I04.jpg)
+![](I08.jpg) 
 
 Close the cups with four 10mm M2 screws each.
 
-![](/img/project/alpha/I05.jpg) 
+![](I05.jpg) 
 
 Use contact adhesive to cover the rubber headband in leather.
 
-![](/img/project/alpha/I06.jpg) 
+![](I06.jpg) 
 
 Temporarily cable tie the headband till it dries
 
-![](/img/project/alpha/I07.jpg) 
+![](I07.jpg) 
  
 Enjoy your new headphones. It will require significant tweaking of wool and dampening till the sound right.
 
-![](/img/project/alpha/G1.jpg) 
+![](G1.jpg) 
 
 

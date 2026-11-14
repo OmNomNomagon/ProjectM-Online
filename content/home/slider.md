@@ -15,6 +15,9 @@ height = "calc(88vh)"
 
 # The hero is the largest image on the site, so it gets the extra 2560 width.
 image_widths = [1280, 1920, 2560]
+# Phones get a portrait crop instead (see slider.html): the hero is 88vh tall, so 3:5.
+phone_crop = "3:5"
+phone_widths = [480, 720, 1080]
 
 # Static caption. Rendered ONCE, above the slides, and does not move with them.
 # This is the page's only <h1>, so it carries the search weight.

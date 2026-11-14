@@ -7,8 +7,7 @@ resources/_gen/
 # Hugo's concurrent-build lock. Transient.
 .hugo_build.lock
 
-# Windows / OneDrive droppings. Note: 18 desktop.ini files are still tracked and are
-# live on the site - see IMPROVEMENTS.md. This stops any new ones appearing.
+# Windows / OneDrive droppings (the 38 that had been committed were removed 2026-11-14).
 desktop.ini
 Thumbs.db
 ehthumbs.db

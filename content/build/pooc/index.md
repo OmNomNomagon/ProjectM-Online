@@ -1,5 +1,9 @@
 ---
 title: Media Server Website
+card: true
+card_weight: 2000
+card_summary: "Web service consolidation website"
+aliases: ["/project/pooc/"]
 summary: web service consolidation website
 description: "A home media server dashboard: Organizr behind an Nginx reverse proxy with Let's Encrypt SSL, bringing the server's web services into one site."
 author: Mark Riganti
@@ -7,7 +11,6 @@ tags:
 - dev
 date: "2020-03-18T00:00:00Z"
 type: "widget_page"
-
 
 ---
 

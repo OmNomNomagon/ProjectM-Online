@@ -1,5 +1,9 @@
 ---
 title: Wanhao Lack Triple Stack 3D Printer Enclosure
+card: true
+card_weight: 800
+card_title: "Wanhao Lack Triple Stack"
+aliases: ["/project/lack/"]
 summary: 3d Printer enclosure
 description: "An IKEA Lack triple-stack enclosure for the Wanhao i3, Maker Select and Cocoon Create 3D printers, with a removable top and printable upgrade parts."
 author: Mark Riganti
@@ -7,7 +11,6 @@ tags:
 - 3d
 date: "2020-09-02T00:00:00Z"
 type: "widget_page"
-
 
 ---
 
@@ -33,32 +36,32 @@ Downloadable on [thingiverse](https://www.thingiverse.com/thing:2685750)
 
 Tool holder for allen keys, exacto knife, pliers, scraper, thickness quage
 
-![](/img/project/lack/I01.jpg) 
+![](I01.jpg) 
 
 Printed rotational hinge
 
-![](/img/project/lack/I02.jpg) 
+![](I02.jpg) 
 
 Perspex corner mounts
 
-![](/img/project/lack/I03.jpg) 
+![](I03.jpg) 
 
 PTFE feed and filament cleaner
 
-![](/img/project/lack/I08.jpg)
-![](/img/project/lack/I04.jpg) 
+![](I08.jpg)
+![](I04.jpg) 
 
 Sliding Control box mechanism
 
-![](/img/project/lack/I05.jpg) 
-![](/img/project/lack/I06.jpg) 
+![](I05.jpg) 
+![](I06.jpg) 
 
 Cable rounting
 
-![](/img/project/lack/I07.jpg) 
+![](I07.jpg) 
  
 Removable top
  
-![](/img/project/lack/I09.jpg) 
+![](I09.jpg) 
 
 

@@ -6,6 +6,14 @@ weight: 1
 
 # Page metadata.
 title: ReDuplicator MK3x - Wanhao i3 overhaul
+card: true
+card_weight: 200
+card_title: "ReDuplicator MK3x - 3d Printer"
+card_summary: "Wanhao i3 complete overhaul"
+aliases: ["/project/mk3x/"]
+tags:
+- 3d
+- electro
 description: "ReDuplicator MK3x: a complete guide to rebuilding a Wanhao i3 into a rigid, Prusa MK3-style 3D printer on aluminium extrusion, keeping its core parts."
 author: Mark Riganti
 date: "2018-09-09T00:00:00Z"

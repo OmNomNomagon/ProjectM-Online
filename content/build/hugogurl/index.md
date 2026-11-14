@@ -1,5 +1,8 @@
 ---
 title: Hugo-Gurl - Hugo GUI tool
+card: true
+card_weight: 2150
+aliases: ["/project/hugogurl/"]
 summary: GUI tool to maintain and build hugo websites.
 description: "Hugo-Gurl: a C# desktop app for Hugo static websites that creates pages, builds and previews the site locally, and deploys it to GitHub."
 author: Mark Riganti

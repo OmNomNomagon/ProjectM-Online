@@ -1,5 +1,8 @@
 ---
 title: Converging LED Floor Lamp
+card: true
+card_weight: 400
+aliases: ["/project/lamp/", "/details/lamp/"]
 summary: For Ikea SPANST lamps
 description: "A DIY converging LED floor lamp built from two IKEA SPÅNST light bars, a timber base and 3D printed fittings. Design and build steps."
 author: Mark Riganti

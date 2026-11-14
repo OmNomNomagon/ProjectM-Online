@@ -1,5 +1,8 @@
 ---
 title: Sonoff Dual USB
+card: true
+card_weight: 1000
+aliases: ["/project/sonoff/"]
 summary: smart switch
 description: "A 3D printed enclosure that combines a Sonoff Basic R2 RF smart switch with a dual USB charger, with a large button for manual control."
 author: Mark Riganti

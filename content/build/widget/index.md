@@ -1,5 +1,8 @@
 ---
 title: Download Tracking Widgets
+card: true
+card_weight: 2050
+aliases: ["/project/widget/"]
 summary: Desktop widgets tracking data downloads
 description: "Python and PowerShell scripts that log recent downloads and show them on the desktop through custom Rainmeter widgets."
 author: Mark Riganti

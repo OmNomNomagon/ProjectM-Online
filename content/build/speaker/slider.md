@@ -22,7 +22,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/speaker/G1.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "G1.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
 
 
@@ -32,7 +32,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/speaker/G2.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "G2.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
  
   
@@ -43,7 +43,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/speaker/G3.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "G3.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
   
   
@@ -53,7 +53,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/speaker/G4.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "G4.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
 
 [[item]]
@@ -62,7 +62,7 @@ height = "calc(65vh)"
   align = "left"
 
   overlay_color = "#000"  # An HTML color value.
-  overlay_img = "project/speaker/G5.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "G5.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.0  # Darken the image. Value in range 0-1.
   
   

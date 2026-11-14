@@ -1,5 +1,8 @@
 ---
 title: Custom K65 RGB Keyboard
+card: true
+card_weight: 1400
+aliases: ["/project/kb1/"]
 summary: Cherry Brown Mod
 description: "A modded Corsair K65 RGB: Cherry MX Brown switches, silenced stabilisers, PBT keycaps, O-rings and case dampening for a quieter, better-feeling board."
 author: Mark Riganti
@@ -21,26 +24,26 @@ A modified Corsair RGB K65 with the following improvements.
 
 Remove the original keycaps, open the enclosure and desolder each switch.
 
-![](/img/project/kb1/I01.jpg) 
+![](I01.jpg) 
 
 These cheery Brown switches were non RGB and didn't have a clear cover. Open each brown switch and place the spring and stem inside the enclosure of the original red switches.
 its a good idea to lube these switches with silicone grease while they are open.
 
-![](/img/project/kb1/I02.jpg) 
+![](I02.jpg) 
 
 Resolder all of the new hybid brown switches onto the board.
 
-![](/img/project/kb1/I03.jpg) 
+![](I03.jpg) 
 
 Use silverstone dampening material in the bottom of the enclosure.
 
-![](/img/project/kb1/I04.jpg) 
+![](I04.jpg) 
 
 
 The palm rest are carved from Tasmanian Oak. A jarrah stain gives it a vivid colour.
 
-![](/img/project/kb1/I05.jpg) 
+![](I05.jpg) 
 
 Finish the palm rest with a few coats of Duplicolor automotive clear coat. This will provide enough protection for everyday use
 
-![](/img/project/kb1/I05.jpg) 
+![](I05.jpg) 

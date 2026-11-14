@@ -37,6 +37,32 @@ non-zero if Hugo reports any ERROR. `.\public` is left alone. Run this before de
 
 ## Deploy
 
+**Automatic (normal):** push to `master` on GitHub. The workflow in
+`.github/workflows/deploy.yml` builds the site on Linux with Hugo 0.169.0 extended,
+checks for empty images, and replaces the contents of the Pages repo
+(`OmNomNomagon.github.io`) with the build. Watch it under the repo's **Actions** tab;
+it can also be run by hand there ("Run workflow"). The first run converts every image
+(~2 minutes); later runs reuse them from the cache.
+
+It needs a deploy key (one-time setup):
+
+1. Make a key pair in a scratch folder (no passphrase):
+   `ssh-keygen -t ed25519 -C riganti-deploy -f riganti_deploy -N ""`
+2. **OmNomNomagon.github.io** → Settings → Deploy keys → Add deploy key: paste
+   `riganti_deploy.pub`, tick **Allow write access**.
+3. **ProjectM-Online** → Settings → Secrets and variables → Actions → New repository
+   secret: name `PAGES_DEPLOY_KEY`, value = the whole of `riganti_deploy` (the private key).
+4. Delete both key files.
+
+The key can only write to the Pages repo. Because the workflow publishes the whole
+build, the `public/` submodule in this repo no longer needs updating; it may lag
+behind the live site, which is fine.
+
+Linux is case-sensitive: file names in Markdown (`![](I01.jpg)`) and the theme name in
+config must match the files exactly, or the GitHub build fails where Windows works.
+
+**Manual (fallback):**
+
 ```
 .\scripts\build.ps1 -Deploy
 ```
@@ -54,9 +80,43 @@ git commit -m "Update site submodule"
 git push
 ```
 
-Two commits, because `public/` is a submodule with its own history. This is the manual
-process the site has always used — replacing it with a GitHub Actions workflow is on the
-checklist (P1).
+Two commits, because `public/` is a submodule with its own history. Only needed if the
+workflow above is unavailable.
+
+## Adding a project
+
+Everything for a project lives in one folder, `content/build/<name>/`. Create it from
+the template:
+
+```
+hugo new content build/<name>
+```
+
+(`<name>` becomes the address, e.g. `build/walnut-desk` → riganti.com.au/build/walnut-desk/.)
+That makes `index.md` (the write-up, with the card settings at the top) and `slider.md`.
+Then drop the photos into the same folder:
+
+| File | What it's for |
+|---|---|
+| `featured.jpg` | The homepage grid card and the share image (landscape works best) |
+| `G1.jpg`, `G2.jpg`, … | The slider at the top of the page, in name order |
+| any other photo | Placed in the text with `![What it shows](photo.jpg)` |
+
+Use the original photos: Hugo resizes them and converts them to AVIF/WebP, makes phone
+crops for the slider, and sets sizes so pages don't jump while loading. Write a short
+description inside the `[ ]` of each photo; it becomes the alt text (left empty, it
+falls back to "<title> – build photo N").
+
+In `index.md`: `title`, `summary` (the card's one-liner), `description` (search
+results, ~120–160 characters), `tags` (wood / 3d / audio / electro / dev; the first is
+the card's type) and `card_weight` (grid position: existing projects run 200–2200 in
+steps of 50, so 100 puts a new one first). `card_title` / `card_summary` give the card
+shorter wording than the page. Set `date` to when you built it: the grid's "Newest"
+sort uses it.
+
+Older notes: card pages used to live in `content/project/` with photos in
+`static/img/project/`; everything moved into the project folders on 2026-11-14, and the
+old `/project/<name>/` addresses redirect (`aliases` in each page).
 
 ## Adding a new documentation set
 

@@ -1,5 +1,8 @@
 ---
 title: Lego Saturn V Stand
+card: true
+card_weight: 1200
+aliases: ["/project/apollo/", "/project/lego/"]
 summary: Additional stands
 description: "Extra 3D printed stands for the LEGO Saturn V, styled like the originals so the rocket sits more securely on display. Free to download on Thingiverse."
 author: Mark Riganti

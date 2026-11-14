@@ -1,5 +1,9 @@
 ---
 title: Scotch Bottle Alcohol headphone Stand
+card: true
+card_weight: 1800
+card_title: "Scotch headphone Stand"
+aliases: ["/project/alcostand/"]
 summary: Turn any alco bottle into a stand.
 description: "A 3D printed ring stand that turns a whisky or Scotch bottle into a stylish headphone stand. A two-ring redesign for extra stability, free to download."
 author: Mark Riganti
@@ -7,7 +11,6 @@ tags:
 - 3d
 date: "2020-04-15T00:00:00Z"
 type: "widget_page"
-
 
 ---
 

@@ -1,5 +1,8 @@
 ---
 title: Ironbark outdoor Chairs
+card: true
+card_weight: 950
+aliases: ["/project/chair/"]
 summary: Improved ikea Tarno chairs
 description: "Upcycling IKEA Tärnö outdoor chairs: the flimsy acacia slats swapped for red ironbark, sanded, rounded and finished in Danish oil. Step-by-step build."
 author: Mark Riganti
@@ -18,23 +21,23 @@ Cut the lengths to size, 6 are required per chair.
 
 Sand and round all the corners.
 
-![](/img/project/chair/I01.jpg) 
+![](I01.jpg) 
 
 Coat with 3 laters of danish oil, each spaced a day apart.
 
-![](/img/project/chair/I02.jpg) 
+![](I02.jpg) 
 
 As these are semi outdoor chairs, apply 5-6 thick coats of Bondall gold spar marine varnish. This improves weather resistance.
 
-![](/img/project/chair/I03.jpg) 
+![](I03.jpg) 
 
 The acacia panels are help on by 2 screws each. They will be reused for the ironbark.
 Space the slats 5mm apart . Drill pilot holes and secure using the existing holes in the frame. 
 
-![](/img/project/chair/I04.jpg) 
+![](I04.jpg) 
 
 New holes may need to be made in the frame for the 3rd slat. Use a powerdrill and metal drill bit.
 
-![](/img/project/chair/I05.jpg) 
+![](I05.jpg) 
 
 Enjoy your new fancier chairs.

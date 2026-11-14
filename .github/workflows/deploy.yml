@@ -1,0 +1,73 @@
+# Builds the site with Hugo and publishes it to the GitHub Pages repo
+# (OmNomNomagon/OmNomNomagon.github.io), which serves riganti.com.au.
+#
+# Runs on every push to master, and on demand from the Actions tab.
+# Needs one secret in this repo: PAGES_DEPLOY_KEY, the private half of an SSH
+# deploy key whose public half is added (with write access) to the Pages repo.
+# See DEVELOPING.md > Deploy.
+name: Build and deploy
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+# One deploy at a time; a newer push replaces a queued one.
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the site and theme
+        uses: actions/checkout@v4
+        with:
+          submodules: false   # `public/` is the deploy target; only the theme is needed
+          fetch-depth: 1
+
+      - name: Fetch the theme submodule
+        run: git submodule update --init --depth 1 themes/Academia-hugo
+
+      - name: Install Hugo (extended, same version as local)
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.169.0'
+          extended: true
+
+      # Image conversion (AVIF/WebP, phone crops, write-up photos) is most of the
+      # build time. Hugo keeps the results in resources/_gen; restoring it means
+      # only new or changed photos are converted on each run.
+      - name: Restore converted images
+        uses: actions/cache@v4
+        with:
+          path: resources/_gen
+          key: hugo-gen-${{ hashFiles('content/**/*.jpg', 'content/**/*.jpeg', 'content/**/*.png', 'assets/**', 'themes/Academia-hugo/assets/**', 'themes/Academia-hugo/layouts/**') }}
+          restore-keys: hugo-gen-
+
+      - name: Build
+        run: hugo --destination site-out --noBuildLock --logLevel warn
+
+      # Same guard as scripts/build.ps1: an interrupted conversion can leave a
+      # zero-byte image that browsers then show as a blank card.
+      - name: Check for empty images
+        run: |
+          empty=$(find site-out -type f \( -name '*.avif' -o -name '*.webp' -o -name '*.jpg' -o -name '*.jpeg' -o -name '*.png' \) -size 0 | head -5)
+          if [ -n "$empty" ]; then echo "Empty image files:"; echo "$empty"; exit 1; fi
+          echo "pages: $(find site-out -name '*.html' | wc -l)"
+
+      # Replaces the Pages repo's contents with this build, so files that are no
+      # longer generated (old pages, renamed images) disappear from the live site.
+      # CNAME comes from static/CNAME.
+      - name: Publish to the Pages repo
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          deploy_key: ${{ secrets.PAGES_DEPLOY_KEY }}
+          external_repository: OmNomNomagon/OmNomNomagon.github.io
+          publish_branch: master
+          publish_dir: ./site-out
+          keep_files: false
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          full_commit_message: "Deploy ${{ github.sha }}: ${{ github.event.head_commit.message }}"

@@ -1,5 +1,10 @@
 ---
 title: Tasmanian Oak Test Tube Spice Rack
+card: true
+card_weight: 700
+card_title: "Oak Test Tube Spice Rack"
+card_summary: "Victorian Oak"
+aliases: ["/project/spicer/", "/build/spice/", "/project/spice/"]
 summary: Tasmanian Oak
 description: "A test tube spice rack in Tasmanian oak that holds 18 corked 25×150mm tubes. Cut list, band-saw joints and finishing steps."
 author: Mark Riganti
@@ -7,7 +12,6 @@ tags:
 - wood
 date: "2020-09-16T00:00:00Z"
 type: "widget_page"
-
 
 ---
 
@@ -21,22 +25,22 @@ The vertical portions are made up of the 19mm oak. A band saw is used to make th
 The top horizontal portion is made of the 19mm oak. 27mm holes are spaced out in 40mm increments. Use a drill press for the most accurate results.
 The bottom horizontal mean is a sandwich of two 12mm lengths. The topmost length has matching hole spacings.
 
-![](/img/project/spicer/I01.jpg) 
+![](I01.jpg) 
 
 Once fit and finish looks good, glue the pieces together. Use a sander to round the corners.
 
-![](/img/project/spicer/I02.jpg) 
+![](I02.jpg) 
 
 Repeat with taller vertical lengths for the rear rack.
 
-![](/img/project/spicer/I03.jpg) 
+![](I03.jpg) 
 
 Add three layers of Danish oil over 3 days to complete the finish.
 
-![](/img/project/spicer/I04.jpg) 
+![](I04.jpg) 
 
 Add the test tubes and corks. Ensure everything aligns correctly.
 
-![](/img/project/spicer/I05.jpg) 
+![](I05.jpg) 
 
 Enjoy your new spice rack 

@@ -28,9 +28,35 @@ safe to change until the build is modern and previewable.
 
 ---
 
+## Where things stand (2026-11-14)
+
+- **Live:** Hugo 0.169; static hero; chevron wordmark and headings; project grid with
+  Default/Newest/Type sort; dark mode following the system; giscus comments; one h1
+  per page; JSON-LD; robots.txt with sitemap; card pages redirect to write-ups; new
+  descriptions; alt text on every image; Cloudflare cache rules.
+- **Scores (mobile PageSpeed):** performance 80-83 (from 61), SEO 100, accessibility 96,
+  best practices 100. LCP 4.3-4.6 s (hero photo); contrast is the only a11y flag.
+- **Search engines:** Google Search Console sitemap re-submitted 14 Nov (last read
+  7 Mar 2020). As of 9 Nov: 62 indexed, 31 "crawled - currently not indexed" (mostly the
+  old duplicate /project/ pages), 9 redirects. Bing Webmaster Tools added 14 Nov.
+- **Waiting on you:**
+  - Cloudflare: update cache rule 1 for Font Awesome (see "Cache rules").
+  - Cloudflare: optionally switch on Web Analytics (real-visitor page views, referrers, Core Web Vitals; traffic analytics is already on).
+  - Search Console: request indexing for the homepage and best project pages; check
+    Indexing > Pages in 1-2 weeks and "Validate fix" on crawled-not-indexed.
+  - Bing: submit the sitemap / key URLs.
+  - Profiles: link https://riganti.com.au from GitHub, Thingiverse (and LinkedIn).
+  - Speaker stands: title says Red Ironbark, text says red gum - which is right?
+  - sidet card summary (P1 item below).
+- **Next candidates:** phone-sized hero images (LCP), button contrast, write-up photos
+  through the image pipeline, nested navbar link, thin taxonomy pages, homepage share
+  image, deprecated Hugo APIs, CI deploys, IndexNow, new projects since 2022.
+
 ## P0 — Broken right now
 
-- [ ] **Analytics: GA4 is already running — check it before replacing anything.**
+- [~] **Analytics: GA4 is already running — check it before replacing anything.**
+
+      **Status 14 Nov:** Google Analytics removed (no GA on the live site). Cloudflare traffic analytics (edge requests, visits, cache, status codes) is on automatically. Cloudflare **Web Analytics** (real-visitor page views, top pages, referrers, real-user Core Web Vitals) is **not on yet**: no beacon on the live pages. Enable: Cloudflare dashboard → Analytics & Logs → Web Analytics → riganti.com.au (automatic setup injects it at the edge; nothing to deploy).
       The config sets `googleAnalytics = "UA-158796585-1"`, which is Universal Analytics
       and was switched off on 1 July 2023. **Correction to an earlier note in this file:
       that does NOT mean zero data was collected.** A Lighthouse run on 13 Nov 2026
@@ -133,7 +159,8 @@ safe to change until the build is modern and previewable.
 - [x] **36 more files have trailing TABs in front matter** (`content/build/*`,
       `content/project/*`). Harmless today since they get trimmed, but they are how the
       `lack` corruption happened. Worth a cleanup pass.
-- [ ] **18 `desktop.ini` files are committed to git and published live** — e.g.
+- [x] **18 `desktop.ini` files are committed to git and published live** — e.g.
+      **Status 14 Nov (later):** removed from both repos (38 files) and ignored.
       <https://riganti.com.au/project/dining/desktop.ini> returns HTTP 200. OneDrive
       droppings from before the repo moved to `C:\Git`. Delete and add to `.gitignore`.
 - [x] **Deployed to the live site.** First deploy since March 2022. Verified in
@@ -156,9 +183,11 @@ safe to change until the build is modern and previewable.
       browsers decode identically.
 - [x] **Committed the theme fixes** to the `Academia-hugo` fork and bumped the submodule
       pointer. Both repos merged fast-forward to `master` and pushed.
-- [ ] **Theme folder case mismatch.** Config says `theme = "academia-hugo"`, folder is
+- [x] **Theme folder case mismatch.** Config says `theme = "academia-hugo"`, folder is
+      **Status 14 Nov (later):** config now says `theme = "Academia-hugo"`; verified with a real Linux build in WSL.
       `Academia-hugo`. Works on Windows, will fail on Linux CI. Make them match.
-- [ ] **No CI/CD.** Deploys are a manual `public/` submodule commit. Move to a GitHub
+- [x] **No CI/CD.** Deploys are a manual `public/` submodule commit. Move to a GitHub
+      **Status 14 Nov (later):** `.github/workflows/deploy.yml` builds on push and publishes to the Pages repo with a deploy key (setup in DEVELOPING.md). Linux build verified in WSL: same output as Windows, 125 s from scratch.
       Actions workflow that builds and pushes to the Pages repo on every push to master.
 - [x] **Stale `public/` submodule pointer** — the source repo pointed at a Mar 2020 commit
       while the live site ran Mar 2022. Now tracking the deployed build.
@@ -184,8 +213,11 @@ safe to change until the build is modern and previewable.
       freshness signal anywhere. Fix alongside the sorting work below.
 - [~] **`og:image` is `mustangB.jpg` sitewide** (project and docs pages now use their own photo; homepage and tag pages still use mustangB.jpg) — a generic car photo on every share card.
       Use each project's `featured.jpg` per page.
-- [ ] **`og:updated_time` frozen at 2020-02-19.**
-- [ ] **Thin and orphaned pages, all live and returning 200:**
+- [x] **`og:updated_time` frozen at 2020-02-19.**
+      **Status 14 Nov:** pages now carry real (weekly-spread) dates, e.g. homepage 2020-11-25.
+- [x] **Thin and orphaned pages, all live and returning 200:**
+      **Status 14 Nov (later):** authors pages unpublished (kept as data for the author card), categories/publication_types taxonomies removed, /slides/ and /details/ go with the next clean deploy; old /details/<x>/, /build/spice/, /project/lego|spice/ now redirect to the right project.
+      **Status 14 Nov:** `/project/` now redirects. Still 200 live: `/authors/`, `/authors/admin/`, `/categories/`, `/publication_types/`, `/slides/`, `/details/`.
       - `/authors/` (2 sitemap entries), `/categories/` (1), `/publication_types/` (1) —
         generated but empty. Drop those taxonomies; this site has no publications.
       - `/slides/` and `/details/` — no longer generated by any build, but still served
@@ -195,7 +227,9 @@ safe to change until the build is modern and previewable.
 - [x] **Redundant titles** — "Projects | Mark Riganti's Projects".
 - [x] **Typos in public titles:** "Wahnao"/"Wanaho" vs "Wanhao", "Regidity" in a card
       description.
-- [ ] **The navbar brand is an `<a>` nested inside another `<a>`.** In
+- [x] **The navbar brand is an `<a>` nested inside another `<a>`.** In
+      **Status 14 Nov (later):** fixed; logo and title are sibling links. Layout measured identical at 1280 and 375 px.
+      **Status 14 Nov:** still nested (checked the template): the `navbar-img` link is never closed before the `navbar-brand` link opens.
       `navbar.html`, `<a class="navbar-img">` wraps `<a class="navbar-brand">`.
       Nested anchors are invalid HTML; browsers silently close the outer one, so
       what ships is not the structure the template describes. Harmless today but
@@ -259,7 +293,9 @@ at 80% on a narrow window. Two consequences worth remembering:
 
 ## P3 — Performance / Core Web Vitals
 
-- [ ] **Cloudflare never caches your HTML.** Every page returns
+- [x] **Cloudflare never caches your HTML.** Every page returns
+
+      **Status 14 Nov:** decided: HTML stays uncached so deploys show instantly; static files are cached by the two cache rules instead.
       `cf-cache-status: DYNAMIC`, meaning it was not even considered cacheable, so all
       2.51k requests/day round-trip to GitHub Pages. Cloudflare caches by file
       extension by default, and every page on this site is an extensionless directory
@@ -269,7 +305,8 @@ at 80% on a narrow window. Two consequences worth remembering:
       Fix: a Cache Rule matching `riganti.com.au/*` with *Eligible for cache* and an
       Edge TTL. The site is fully static, so this is safe. Purge on deploy, or keep the
       TTL short — worth wiring into the CI job when that lands.
-- [ ] **Get a Core Web Vitals baseline before touching anything.** You already run
+- [x] **Get a Core Web Vitals baseline before touching anything.** You already run
+      **Status 14 Nov:** done; see "PageSpeed history" (61 → 83 mobile).
       Checkmate at <https://check.poocorp.com> and it has a PageSpeed monitor, which is
       exactly the right instrument for this section. It needs a Google PageSpeed Insights
       API key (free: Cloud Console → enable *PageSpeed Insights API* → Credentials →
@@ -295,7 +332,9 @@ at 80% on a narrow window. Two consequences worth remembering:
         Google largely does not use — and flatters the site, because a 5.19 MB page
         hurts far more on a phone than on a desktop connection. Keep Desktop if useful,
         but Mobile is the number that matters for the SEO work in P2.
-- [ ] **102 MB of images, 411 JPEGs, zero WebP/AVIF.**
+- [x] **102 MB of images, 411 JPEGs, zero WebP/AVIF.**
+      **Status 14 Nov (later):** all project photos now live in their project folders and are served converted; 86 unused loose files (15 MB) remain in static/img/project.
+      **Status 14 Nov:** hero slides, project cards and the logo are AVIF/WebP with srcset. Photos inside write-ups are still the original JPEGs from `static/`.
       **MOBILE BASELINE — Lighthouse 13.6.0 via PageSpeed Insights, 13 Nov 2026:**
       ```
       Performance score         61 / 100
@@ -360,7 +399,8 @@ at 80% on a narrow window. Two consequences worth remembering:
         480/720/1000w, `sizes` matching the 1/2/3-column grid, explicit width/height
         (fixes the CLS audit), `loading="lazy" decoding="async"`. TV card: 55 KiB JPEG →
         12.5 KiB AVIF. `height:auto` added in custom.css so the attributes don't distort.
-      - [ ] **Cloudflare cache rules (you, in the dashboard):** see "Cache rules" below.
+      - [x] **Cloudflare cache rules (you, in the dashboard):** see "Cache rules" below.
+            **Status 14 Nov:** both rules added and verified (1 year for fingerprinted files, 1 week for other images, pages uncached). **Pending:** update rule 1 to the expression in "Cache rules" so the self-hosted Font Awesome CSS and fonts are covered (still 4 h live).
 
       **RE-RUN after deploy 156081c (stylesheets, thumbnails, SEO pass), mobile, 14 Nov 2026:**
       ```
@@ -470,11 +510,17 @@ at 80% on a narrow window. Two consequences worth remembering:
       files are still 0.5–0.8 MB each, so the slider is the top target either way, just
       for a different reason. The three multi-MB originals sit unused in `static/`.)
       The 41 project thumbnails below the fold are fine by comparison, ~70 KB each.
-- [ ] **No lazy loading anywhere** (0 of 18 images on a sample build page).
-- [ ] **No `srcset`.** Images live in `static/`, which bypasses Hugo's image pipeline
+- [x] **No lazy loading anywhere** (0 of 18 images on a sample build page).
+      **Status 14 Nov:** cards, non-first slides and all write-up photos are `loading="lazy"` (18 of 20 images on /build/tv/; the 2 eager ones are the first slide and the logo).
+- [x] **No `srcset`.** Images live in `static/`, which bypasses Hugo's image pipeline
+      **Status 14 Nov (later):** write-up photos now go through the pipeline too (render-image hook): AVIF/WebP at 480/800/1200 + JPEG fallback.
+      **Status 14 Nov:** hero, cards and logo have srcset; write-up photos do not (still plain static JPEGs).
       entirely. Moving them into page bundles enables automatic resizing + WebP/AVIF.
-- [ ] **No `width`/`height` on images** → cumulative layout shift.
-- [ ] **Render-blocking CDN assets, all ancient:** FontAwesome 5.6 (2018),
+- [x] **No `width`/`height` on images** → cumulative layout shift.
+      **Status 14 Nov (later):** write-up photos now carry width/height as well.
+      **Status 14 Nov:** hero, cards and logo have them; write-up photos do not.
+- [x] **Render-blocking CDN assets, all ancient:** FontAwesome 5.6 (2018),
+      **Status 14 Nov:** Font Awesome 7.0.1 self-hosted; fancybox, academicons and highlight.js removed; one blocking stylesheet (none on the homepage). jQuery, imagesLoaded and Isotope still load from cdnjs.
       academicons 1.8.6, fancybox 3.2.5, jQuery. Self-host and subset, or drop.
 
 ## P4 — Features
@@ -755,3 +801,26 @@ design decision. Cloudflare cache rules still to be added (see "Cache rules").
 - [x] Share images verified: all 41 projects use their own card photo.
 - [ ] Open: speaker stands page title says "Red Ironbark", its text says red gum.
 - [ ] Later: hand-written alt text for the best photos.
+
+## One-folder projects, phone hero, photo pipeline, CI (2026-11-14)
+
+- **One folder per project:** `content/build/<name>/` holds index.md (write-up + card fields:
+  `card: true`, `card_weight`, optional `card_title`/`card_summary`), slider.md, featured.jpg
+  and every photo. `content/project/` cards and `static/img/project/<name>/` +
+  `assets/img/project/<name>/` copies are gone (migration script: git mv, history kept).
+  MK3x guide cards live on the guide pages (page6/7/8 became leaf bundles, same URLs).
+  Grid = pages with `card: true` sorted by `card_weight` (not `weight`, which orders the docs sidebar).
+  Old `/project/<card>/` URLs: `aliases` (Hugo redirect pages with canonical + noindex).
+- **Template:** `hugo new content build/<name>` (archetypes/build/). Slides come from
+  G1.jpg, G2.jpg... automatically when slider.md lists none. Tested end to end, then removed.
+- **Phone hero:** portrait crops for phones (`phone_crop` 3:5 on the homepage, 4:5 default;
+  `phone_widths`), AVIF q45 under the tint: homepage slide on a typical phone 122 KB -> 58 KB.
+- **Write-up photos:** render hook processes bundle images (e.g. I01 475 KB -> 70 KB desktop,
+  34 KB phone); card photo no longer repeated as a page banner (`card: true` skips it).
+- **Page-by-page comparison** with the previous live build (scratchpad compare.pl): 105 pages
+  identical in title, description, canonical, headings, text, links, images and alt text.
+  Intended differences: thin pages gone; 8 orphaned old URLs redirect; MK3x guide pages now
+  show their tags and appear on the 3d/electro tag pages; tag index order (by count); tag
+  page 2s merged (no more duplicate cards).
+- **Open:** 86 unused loose photos in static/img/project (15 MB, still published); 404 list
+  from Cloudflare to review; deploy key for CI (you).

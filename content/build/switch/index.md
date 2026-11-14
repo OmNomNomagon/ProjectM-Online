@@ -1,5 +1,8 @@
 ---
 title: Switch Dock Game Holder
+card: true
+card_weight: 450
+aliases: ["/project/switch/", "/details/switch/"]
 summary: "7 Card Game Dock"
 description: "A 3D printed holder for the Nintendo Switch dock that keeps 7 to 9 game cartridges within reach. Two versions, free to download and print."
 author: Mark Riganti
