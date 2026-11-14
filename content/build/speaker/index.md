@@ -1,8 +1,8 @@
 ---
-title: Red Ironbark Angled Speaker Stands
+title: Red Gum Angled Speaker Stands
 card: true
 card_weight: 1350
-card_title: "Ironbark Speaker Stands"
+card_title: "Red Gum Speaker Stands"
 aliases: ["/project/speaker/"]
 summary: Angled Speaker Stand
 description: "Angled floor speaker stands in red gum and merbau, designed to aim the tweeters at ear height from 2m away. Measurements and build steps."

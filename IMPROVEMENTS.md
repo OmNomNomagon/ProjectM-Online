@@ -824,3 +824,14 @@ design decision. Cloudflare cache rules still to be added (see "Cache rules").
   page 2s merged (no more duplicate cards).
 - **Open:** 86 unused loose photos in static/img/project (15 MB, still published); 404 list
   from Cloudflare to review; deploy key for CI (you).
+
+## Project sliders: whole photo with blurred sides (2026-11-14)
+
+- Project-page sliders now show each photo uncropped (`object-fit: contain`) at 70vh,
+  over a blurred, darkened copy of itself (a 96px WebP, ~1-2 KB) that fills the width.
+  Arrows, indicators and auto-advance unchanged. The homepage hero keeps `cover`.
+- Controlled by `fit` in a slider.md (`contain` default off the homepage, `cover` on it);
+  phone crops are skipped in contain mode since the whole photo is shown.
+- All 37 `content/build/*/slider.md` and the archetype: `height = "70vh"` (was 65vh); blur brightness 0.85.
+- 404 review: Cloudflare's top 404 paths (wp-login.php, .env, /cms/, /wp/, sendgrid
+  config...) are vulnerability scanners, not lost pages. Nothing to redirect.

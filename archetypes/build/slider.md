@@ -7,5 +7,5 @@ headless = true
 active = true
 weight = 10
 interval = 5000
-height = "calc(65vh)"
+height = "70vh"
 +++
